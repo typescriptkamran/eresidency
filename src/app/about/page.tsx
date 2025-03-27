@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Award, Users, Globe, Shield } from "lucide-react";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function AboutPage() {
   return (
@@ -10,6 +11,13 @@ export default function AboutPage() {
       <Header />
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <AnimatedHero
+            title="About E-Residency Experts"
+            subtitle="Learn about our mission, values, and the team behind our e-residency services"
+            imageSrc="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+            imageAlt="Team of professionals working together"
+            height="md:h-[400px]"
+          />
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-6">
               About E-Residency Experts

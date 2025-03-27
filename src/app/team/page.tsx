@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Mail } from "lucide-react";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function TeamPage() {
   const teamMembers = [
@@ -93,10 +94,14 @@ export default function TeamPage() {
       <Header />
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <AnimatedHero
+            title="Meet Our Team"
+            subtitle="Our diverse team of experts brings together specialized knowledge in international business"
+            imageSrc="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
+            imageAlt="Team of e-residency experts"
+            height="md:h-[350px]"
+          />
           <div className="text-center mb-16">
-            <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-6">
-              Meet Our Team
-            </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
               Our diverse team of experts brings together specialized knowledge
               in international business, taxation, law, and technology to

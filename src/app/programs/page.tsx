@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function ProgramsPage() {
   return (
@@ -7,9 +8,13 @@ export default function ProgramsPage() {
       <Header />
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-8">
-            E-Residency Programs
-          </h1>
+          <AnimatedHero
+            title="E-Residency Programs"
+            subtitle="Explore detailed information about e-residency programs from various countries"
+            imageSrc="https://images.unsplash.com/photo-1524055988636-436cfa46e59e?w=1200&q=80"
+            imageAlt="Global e-residency programs"
+            height="md:h-[350px]"
+          />
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12">
             Explore detailed information about e-residency programs from various
             countries. Compare benefits, requirements, and application processes

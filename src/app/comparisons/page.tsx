@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function ComparisonsPage() {
   return (
@@ -9,9 +10,13 @@ export default function ComparisonsPage() {
       <Header />
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-8">
-            E-Residency Program Comparisons
-          </h1>
+          <AnimatedHero
+            title="E-Residency Program Comparisons"
+            subtitle="Compare different e-residency programs side by side to find the best option for your business needs"
+            imageSrc="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80"
+            imageAlt="Comparison of different business options"
+            height="md:h-[350px]"
+          />
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12">
             Compare different e-residency programs side by side to find the best
             option for your business needs. Our comprehensive comparison tool

@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
 import { Mail, Phone, MapPin, Clock, MessageSquare } from "lucide-react";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function ContactPage() {
   return (
@@ -12,11 +13,15 @@ export default function ContactPage() {
       <Header />
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <AnimatedHero
+            title="Contact E-Residency Experts"
+            subtitle="Have questions? Our team is here to help you navigate the e-residency process"
+            imageSrc="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200&q=80"
+            imageAlt="Contact and support team"
+            height="md:h-[350px]"
+          />
           {/* SEO-optimized header section */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              Contact E-Residency Experts
-            </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
               Have questions about Estonian e-residency or other global
               e-residency programs? Our team of experts is here to help you

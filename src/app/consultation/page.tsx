@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Calendar } from "lucide-react";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function ConsultationPage() {
   return (
@@ -11,11 +12,15 @@ export default function ConsultationPage() {
       <Header />
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <AnimatedHero
+            title="Schedule Your Free E-Residency Consultation"
+            subtitle="Speak with our experts to get personalized guidance on choosing the right program"
+            imageSrc="https://images.unsplash.com/photo-1573497491765-dccce02b29df?w=1200&q=80"
+            imageAlt="Business consultation meeting"
+            height="md:h-[350px]"
+          />
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-6">
-                Schedule Your Free E-Residency Consultation
-              </h1>
               <p className="text-lg text-slate-700 dark:text-slate-300 mb-8">
                 Speak with our e-residency experts to get personalized guidance
                 on choosing the right program for your business needs and
