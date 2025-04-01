@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
 import { ArrowLeft, Download, FileText, CheckCircle } from "lucide-react";
+import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function PortugalPage() {
   return (
@@ -19,13 +20,25 @@ export default function PortugalPage() {
             </Link>
           </div>
 
-          <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
-            <div className="h-64 bg-gradient-to-r from-amber-500 to-amber-700 flex items-center justify-center p-8">
-              <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-                Portugal E-Residency Program
-              </h1>
+          <div className="relative mb-12">
+            <AnimatedHero
+              title="Portuguese E-Residency Program"
+              subtitle="Digital residency with a Mediterranean lifestyle and gateway to EU markets"
+              imageSrc="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80"
+              imageAlt="Lisbon, Portugal cityscape with colorful buildings"
+              height="md:h-[400px]"
+              overlayColor="from-red-900/80 to-red-800/60"
+            />
+            <div className="absolute top-6 right-6 md:top-10 md:right-10 w-16 h-10 md:w-24 md:h-16 rounded-md overflow-hidden shadow-lg z-30">
+              <img
+                src="https://images.unsplash.com/photo-1597058712635-3182d1eacc1e?w=400&q=80"
+                alt="Portuguese flag"
+                className="w-full h-full object-cover"
+              />
             </div>
+          </div>
 
+          <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
             <div className="p-8">
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="md:w-2/3">
