@@ -2,7 +2,6 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
 import { ArrowLeft, Download, FileText, CheckCircle } from "lucide-react";
-import { AnimatedHero } from "@/components/shared/animated-hero";
 
 export default function LithuaniaPage() {
   return (
@@ -20,25 +19,13 @@ export default function LithuaniaPage() {
             </Link>
           </div>
 
-          <div className="relative mb-12">
-            <AnimatedHero
-              title="Lithuania E-Residency Program"
-              subtitle="A rising fintech hub offering digital residency with excellent banking infrastructure"
-              imageSrc="https://images.unsplash.com/photo-1565127453543-ad97b93afb61?w=1200&q=80"
-              imageAlt="Vilnius, Lithuania cityscape with modern buildings"
-              height="md:h-[400px]"
-              overlayColor="from-green-900/80 to-green-800/60"
-            />
-            <div className="absolute top-6 right-6 md:top-10 md:right-10 w-16 h-10 md:w-24 md:h-16 rounded-md overflow-hidden shadow-lg z-30">
-              <img
-                src="https://images.unsplash.com/photo-1598974357809-112c788e7f2e?w=400&q=80"
-                alt="Lithuanian flag"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-
           <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
+            <div className="h-64 bg-gradient-to-r from-green-500 to-green-700 flex items-center justify-center p-8">
+              <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
+                Lithuania E-Residency Program
+              </h1>
+            </div>
+
             <div className="p-8">
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="md:w-2/3">
