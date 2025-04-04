@@ -1,3 +1,5 @@
+"use client";
+
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
@@ -14,8 +16,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12 text-center">
-            Find answers to common questions about e-residency programs and our
-            services.
+            Find answers to common questions about e-residency programs and our services.
           </p>
 
           <div className="space-y-6 mb-12">
@@ -66,8 +67,7 @@ export default function FAQPage() {
               Still Have Questions?
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6 text-center">
-              Our e-residency experts are ready to help you with personalized
-              answers to your specific questions.
+              Our e-residency experts are ready to help you with personalized answers to your specific questions.
             </p>
             <div className="flex justify-center">
               <Link
@@ -126,10 +126,7 @@ export default function FAQPage() {
   );
 }
 
-// Client component for FAQ items with toggle functionality
-("use client");
-
-function FAQItem({ question, answer }) {
+function FAQItem({ question, answer }: { question: string; answer: string }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -138,9 +135,7 @@ function FAQItem({ question, answer }) {
         className="w-full flex justify-between items-center p-4 text-left bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-          {question}
-        </h3>
+        <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{question}</h3>
         {isOpen ? (
           <ChevronUp className="h-5 w-5 text-slate-500 dark:text-slate-400" />
         ) : (
