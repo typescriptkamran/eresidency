@@ -20,14 +20,14 @@ export function Header() {
 
   return (
     <header className="bg-white dark:bg-slate-950 sticky top-0 z-50 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-blue-600 dark:text-blue-500">
+              <span className="text-l text-blue-600 dark:text-blue-500">
                 E-Residency
               </span>
-              <span className="ml-1 text-2xl font-bold text-slate-900 dark:text-white">
+              <span className="ml-1 text-l text-slate-900 dark:text-white">
                 Experts
               </span>
             </Link>
