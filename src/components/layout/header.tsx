@@ -5,17 +5,16 @@ import { ThemeSwitcher } from "@/components/theme-switcher";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "E-Residency Programs", href: "/programs" },
-    { name: "Country Comparisons", href: "/comparisons" },
-    { name: "Consultation Services", href: "/consultation" },
+    { name: "Programs", href: "/programs" },
+    { name: "Comparisons", href: "/comparisons" },
+    { name: "Consultation", href: "/consultation" },
     { name: "Resources", href: "/resources" },
-    { name: "Success Stories", href: "/stories" },
+    { name: "Stories", href: "/stories" },
   ];
 
   return (
@@ -34,19 +33,19 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden lg:flex space-x-6">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-slate-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-500 font-medium"
+                className="text-slate-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-500 font-medium md:text-sm"
               >
                 {item.name}
               </Link>
             ))}
           </nav>
 
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <ThemeSwitcher />
             <Button asChild variant="outline">
               <Link href="/login">Login</Link>
@@ -57,7 +56,7 @@ export function Header() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex md:hidden items-center space-x-4">
+          <div className="flex lg:hidden items-center space-x-4">
             <ThemeSwitcher />
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -70,7 +69,7 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-slate-200 dark:border-slate-800">
+          <div className="lg:hidden py-4 border-t border-slate-200 dark:border-slate-800">
             <nav className="flex flex-col space-y-4">
               {navItems.map((item) => (
                 <Link
