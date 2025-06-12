@@ -4,8 +4,15 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Handshake, Globe, Award, Users } from "lucide-react";
 
+type Partner = {
+  name: string;
+  logo: string;
+  description: string;
+  type: string;
+};
+
 export default function PartnersPage() {
-  const partners = [
+  const partners: Partner[] = [
     {
       name: "Baltic Business Services",
       logo: "https://api.dicebear.com/7.x/initials/svg?seed=BBS&backgroundColor=0284c7&textColor=ffffff",
@@ -59,12 +66,12 @@ export default function PartnersPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {partners.map((partner, index) => (
-              <div key={index} className="bg-white dark:bg-slate-800 rounded-lg shadow-lg overflow-hidden">
+            {partners.map((partner) => (
+              <div key={partner.name} className="bg-white dark:bg-slate-800 rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 flex items-center justify-center bg-slate-50 dark:bg-slate-700">
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name} 
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
                     className="h-24 w-24 object-contain"
                   />
                 </div>
@@ -89,62 +96,67 @@ export default function PartnersPage() {
               Partnership Benefits
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white dark:bg-slate-700 p-6 rounded-lg">
-                <div className="flex items-start mb-4">
-                  <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-4">
-                    <Globe className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">Global Reach</h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      Access our international client base of entrepreneurs and businesses seeking e-residency solutions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-white dark:bg-slate-700 p-6 rounded-lg">
-                <div className="flex items-start mb-4">
-                  <div className="w-10 h-10 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mr-4">
-                    <Handshake className="h-5 w-5 text-green-600 dark:text-green-400" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">Collaborative Growth</h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      Develop joint service offerings and marketing initiatives to expand your business.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-white dark:bg-slate-700 p-6 rounded-lg">
-                <div className="flex items-start mb-4">
-                  <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mr-4">
-                    <Award className="h-5 w-5 text-purple-600 dark:text-purple-400" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">Credibility & Trust</h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      Associate with our established brand and reputation in the e-residency consulting space.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-white dark:bg-slate-700 p-6 rounded-lg">
-                <div className="flex items-start mb-4">
-                  <div className="w-10 h-10 bg-orange-100 dark:bg-orange-900 rounded-full flex items-center justify-center mr-4">
-                    <Users className="h-5 w-5 text-orange-600 dark:text-orange-400" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">Knowledge Exchange</h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      Share expertise and insights with our network of specialists in complementary fields.
-                    </p>
+              {[
+                {
+                  icon: <Globe className="h-5 w-5 text-blue-600 dark:text-blue-400" />,
+                  title: "Global Reach",
+                  desc: "Access our international client base of entrepreneurs and businesses seeking e-residency solutions.",
+                  bg: "bg-blue-100 dark:bg-blue-900",
+                },
+                {
+                  icon: <Handshake className="h-5 w-5 text-green-600 dark:text-green-400" />,
+                  title: "Collaborative Growth",
+                  desc: "Develop joint service offerings and marketing initiatives to expand your business.",
+                  bg: "bg-green-100 dark:bg-green-900",
+                },
+                {
+                  icon: <Award className="h-5 w-5 text-purple-600 dark:text-purple-400" />,
+                  title: "Credibility & Trust",
+                  desc: "Associate with our established brand and reputation in the e-residency consulting space.",
+                  bg: "bg-purple-100 dark:bg-purple-900",
+                },
+                {
+                  icon: <Users className="h-5 w-5 text-orange-600 dark:text-orange-400" />,
+                  title: "Knowledge Exchange",
+                  desc: "Share expertise and insights with our network of specialists in complementary fields.",
+                  bg: "bg-orange-100 dark:bg-orange-900",
+                },
+              ].map((benefit, index) => (
+                <div key={index} className="bg-white dark:bg-slate-700 p-6 rounded-lg">
+                  <div className="flex items-start mb-4">
+                    <div className={`w-10 h-10 ${benefit.bg} rounded-full flex items-center justify-center mr-4`}>
+                      {benefit.icon}
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">{benefit.title}</h3>
+                      <p className="text-slate-700 dark:text-slate-300">{benefit.desc}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
 
           <div className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg mb-16">
             <div className="md:flex items-center">
               <div className="md:w-2/3 md:pr-8">
-                <h2 className="text-2xl font-bold text-slate-900 dark:text-white
+                <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
+                  Become a Partner
+                </h2>
+                <p className="text-slate-700 dark:text-slate-300 mb-4">
+                  Join our growing ecosystem of trusted partners and expand your reach in the e-residency market. Let’s create impactful solutions together.
+                </p>
+              </div>
+              <div className="md:w-1/3 flex justify-center md:justify-end mt-6 md:mt-0">
+                <Button asChild size="lg">
+                  <Link href="/contact">Partner With Us</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}

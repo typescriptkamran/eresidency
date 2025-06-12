@@ -1,4 +1,5 @@
 "use client";
+import ArrowForward from "@/components/svgs/arrow-forward"
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -44,7 +45,9 @@ export function HeroSection() {
         >
           <Button asChild size="lg" className="text-lg px-8 py-6">
             <Link href="/consultation">
-              Discover Your E-Residency Path → Free Consultation
+              Discover Your E-Residency Path 
+                <ArrowForward className="size-6 mx-2"/>
+                Free Consultation
             </Link>
           </Button>
         </motion.div>

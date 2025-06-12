@@ -1,3 +1,5 @@
+"use client";
+
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
@@ -11,75 +13,69 @@ export default function CookiePolicyPage() {
           <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-8">
             Cookie Policy
           </h1>
-          
+
           <div className="bg-white dark:bg-slate-800 rounded-lg shadow-md p-8 mb-8">
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Last Updated: June 15, 2023
             </p>
-            
+
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               This Cookie Policy explains how E-Residency Experts ("we," "our," or "us") uses cookies and similar technologies on our website. By using our website, you consent to the use of cookies as described in this policy.
             </p>
-            
+
             <div className="space-y-8">
+              {/* Section 1 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   1. What Are Cookies?
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300">
-                  Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit a website. They are widely used to make websites work more efficiently, provide a better user experience, and give website owners information about how their site is used.
+                  Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit a website...
                 </p>
               </section>
-              
+
+              {/* Section 2 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   2. Types of Cookies We Use
                 </h2>
                 <div className="space-y-4">
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
-                      2.1 Essential Cookies
-                    </h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      These cookies are necessary for the website to function properly. They enable basic functions like page navigation, secure areas access, and form submissions. The website cannot function properly without these cookies.
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
-                      2.2 Performance Cookies
-                    </h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      These cookies collect information about how visitors use our website, such as which pages they visit most often and if they receive error messages. They help us improve website performance and user experience. All information collected by these cookies is aggregated and anonymous.
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
-                      2.3 Functionality Cookies
-                    </h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      These cookies allow the website to remember choices you make (such as your username, language, or region) and provide enhanced, more personal features. They may also be used to provide services you have requested, such as watching a video or commenting on a blog.
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
-                      2.4 Targeting/Advertising Cookies
-                    </h3>
-                    <p className="text-slate-700 dark:text-slate-300">
-                      These cookies are used to deliver advertisements more relevant to you and your interests. They are also used to limit the number of times you see an advertisement and help measure the effectiveness of advertising campaigns. They remember that you have visited a website and this information may be shared with other organizations, such as advertisers.
-                    </p>
-                  </div>
+                  {/* Subsections */}
+                  {[
+                    {
+                      title: "2.1 Essential Cookies",
+                      text: "These cookies are necessary for the website to function properly..."
+                    },
+                    {
+                      title: "2.2 Performance Cookies",
+                      text: "These cookies collect information about how visitors use our website..."
+                    },
+                    {
+                      title: "2.3 Functionality Cookies",
+                      text: "These cookies allow the website to remember choices you make..."
+                    },
+                    {
+                      title: "2.4 Targeting/Advertising Cookies",
+                      text: "These cookies are used to deliver advertisements more relevant to you..."
+                    },
+                  ].map(({ title, text }) => (
+                    <div key={title}>
+                      <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
+                        {title}
+                      </h3>
+                      <p className="text-slate-700 dark:text-slate-300">{text}</p>
+                    </div>
+                  ))}
                 </div>
               </section>
-              
+
+              {/* Section 3 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   3. Third-Party Cookies
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300 mb-4">
-                  In addition to our own cookies, we may also use various third-party cookies to report usage statistics, deliver advertisements, and so on. These cookies may include:
+                  In addition to our own cookies, we may also use various third-party cookies...
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-slate-700 dark:text-slate-300">
                   <li>Analytics cookies (e.g., Google Analytics)</li>
@@ -88,14 +84,12 @@ export default function CookiePolicyPage() {
                   <li>Functionality cookies (e.g., embedded videos, maps)</li>
                 </ul>
               </section>
-              
+
+              {/* Section 4 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   4. How We Use Cookies
                 </h2>
-                <p className="text-slate-700 dark:text-slate-300 mb-4">
-                  We use cookies for various purposes, including to:
-                </p>
                 <ul className="list-disc list-inside space-y-1 text-slate-700 dark:text-slate-300">
                   <li>Understand and save user preferences for future visits</li>
                   <li>Compile aggregate data about site traffic and site interactions</li>
@@ -106,18 +100,20 @@ export default function CookiePolicyPage() {
                   <li>Target advertisements that may be of interest to you</li>
                 </ul>
               </section>
-              
+
+              {/* Section 5 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   5. Cookie Management
                 </h2>
+
                 <div className="space-y-4">
                   <div>
                     <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
                       5.1 Browser Settings
                     </h3>
                     <p className="text-slate-700 dark:text-slate-300">
-                      Most web browsers allow you to control cookies through their settings. You can usually find these settings in the "Options" or "Preferences" menu of your browser. To understand these settings, the following links may be helpful:
+                      Most web browsers allow you to control cookies through their settings...
                     </p>
                     <ul className="list-disc list-inside mt-2 space-y-1 text-slate-700 dark:text-slate-300">
                       <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Cookie settings in Chrome</a></li>
@@ -126,45 +122,51 @@ export default function CookiePolicyPage() {
                       <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Cookie settings in Safari</a></li>
                     </ul>
                   </div>
-                  
+
                   <div>
                     <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
                       5.2 Opt-Out Options
                     </h3>
                     <p className="text-slate-700 dark:text-slate-300">
-                      You can opt out of third-party cookies by visiting the Network Advertising Initiative opt-out page (<a href="http://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">http://optout.networkadvertising.org/</a>) or the Digital Advertising Alliance opt-out page (<a href="http://optout.aboutads.info/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">http://optout.aboutads.info/</a>).
+                      You can opt out of third-party cookies by visiting:
+                      <br />
+                      <a href="http://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">optout.networkadvertising.org</a> or 
+                      <a href="http://optout.aboutads.info/" target="_blank" rel="noopener noreferrer" className="ml-1 text-blue-600 dark:text-blue-400 hover:underline">optout.aboutads.info</a>.
                     </p>
                   </div>
-                  
+
                   <div>
                     <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">
                       5.3 Cookie Consent
                     </h3>
                     <p className="text-slate-700 dark:text-slate-300">
-                      When you first visit our website, you will be presented with a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking on the "Cookie Settings" link in the footer of our website.
+                      When you first visit our website, you will be presented with a cookie consent banner...
                     </p>
                   </div>
                 </div>
               </section>
-              
+
+              {/* Section 6 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   6. Consequences of Disabling Cookies
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300">
-                  If you disable cookies, some features of our website may not function properly. This includes preferences, login sessions, and certain interactive features. However, you will still be able to browse most of the website.
+                  If you disable cookies, some features of our website may not function properly...
                 </p>
               </section>
-              
+
+              {/* Section 7 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   7. Updates to This Cookie Policy
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300">
-                  We may update this Cookie Policy from time to time to reflect changes in technology, regulation, or our business practices. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to check this page periodically for any changes.
+                  We may update this Cookie Policy from time to time to reflect changes...
                 </p>
               </section>
-              
+
+              {/* Section 8 */}
               <section>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
                   8. Contact Us
@@ -183,16 +185,19 @@ export default function CookiePolicyPage() {
               </section>
             </div>
           </div>
-          
+
+          {/* Navigation Links */}
           <div className="flex justify-between items-center">
-            <Link 
-              href="/privacy" 
-              className="text-blue-600 dark:text-blue-400 hover:underline"
-            >
+            <Link href="/privacy" className="text-blue-600 dark:text-blue-400 hover:underline">
               Privacy Policy
             </Link>
-            <Link 
-              href="/terms" 
-              className="text-blue-600 dark:text-blue-400 hover:underline"
-            >
+            <Link href="/terms" className="text-blue-600 dark:text-blue-400 hover:underline">
               Terms of Service
+            </Link>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
