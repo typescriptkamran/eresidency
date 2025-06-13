@@ -10,106 +10,109 @@ import {
 import { Badge } from "@/components/ui/badge";
 import {
   CheckCircle,
+  CreditCard,
   Globe,
   Shield,
+  Smartphone,
   TrendingUp,
   Users,
   Zap,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Business Setup - Global E-Residency | Launch Your EU Company Online",
+  title:
+    "Banking Services - Global E-Residency | EU Business Banking Solutions",
   description:
-    "Launch your EU-based business effortlessly with Global E-Residency's expert business setup services through Estonia's e-Residency program. 100% online, compliant, and cost-effective.",
+    "Open an Estonian business bank account with Global E-Residency. Access EU banking, global payment platforms, and digital financial solutions for e-Residents worldwide.",
 };
 
-export default function BusinessSetupPage() {
+export default function BankingServicesPage() {
   const benefits = [
     {
       icon: <Globe className="h-6 w-6" />,
-      title: "Access to the EU Market",
+      title: "EU Banking Access",
       description:
-        "Operate within the European Union, opening doors to 27 member states and over 450 million consumers.",
+        "Manage transactions within the European Union's single market, with SEPA (Single Euro Payments Area) compatibility.",
     },
     {
-      icon: <Zap className="h-6 w-6" />,
-      title: "100% Online Management",
+      icon: <CreditCard className="h-6 w-6" />,
+      title: "Global Payment Solutions",
       description:
-        "Register and manage your business remotely using Estonia's secure digital infrastructure.",
+        "Connect to platforms like Stripe, PayPal, and Wise for effortless international payments.",
     },
     {
-      icon: <TrendingUp className="h-6 w-6" />,
-      title: "Competitive Tax System",
+      icon: <Smartphone className="h-6 w-6" />,
+      title: "Digital Convenience",
       description:
-        "Benefit from Estonia's unique 0% corporate tax on reinvested profits, ideal for growth-focused businesses.",
+        "Control your finances online or via mobile apps, optimized for iOS and Android.",
     },
     {
       icon: <Shield className="h-6 w-6" />,
-      title: "Global Banking Solutions",
+      title: "Trusted Financial Ecosystem",
       description:
-        "Access EU business banking and payment platforms like Stripe and PayPal.",
+        "Estonia's transparent and secure banking environment supports businesses of all sizes.",
     },
     {
-      icon: <Users className="h-6 w-6" />,
-      title: "Trusted Reputation",
+      icon: <TrendingUp className="h-6 w-6" />,
+      title: "Scalability",
       description:
-        "Estonia ranks among the world's most digitally advanced nations, ensuring credibility for your business.",
+        "From startups to established companies, Estonian banking solutions grow with your business.",
     },
   ];
 
   const services = [
     {
-      title: "Company Registration",
+      title: "Pre-Application Preparation",
       description:
-        "We guide you through the entire process of registering your Estonian company, ensuring compliance with local regulations.",
+        "We start by assessing your business needs to recommend the best banking options.",
       features: [
-        "Choose the optimal company structure (e.g., Private Limited Company, OÜ)",
-        "Prepare and submit registration documents online",
-        "Obtain a unique company registration code",
-        "Set up a legal address in Estonia, required for all businesses",
+        "Reviews your company structure and e-Residency status to ensure eligibility",
+        "Advises on suitable banks or fintech solutions (e.g., traditional banks, EMIs like Wise, or neobanks)",
+        "Guides you on preparing essential documents, such as your e-Residency digital ID, company registration details, and business plan",
+        "Provides tips to strengthen your application, especially for non-EU residents",
       ],
     },
     {
-      title: "E-Residency Application Assistance",
+      title: "Navigating KYC Requirements",
       description:
-        "To manage an Estonian company, you'll need an e-Residency digital ID. We streamline the application process.",
+        "Know Your Customer (KYC) processes are mandatory for opening a bank account. We simplify this step.",
       features: [
-        "Providing step-by-step guidance on required documents",
-        "Assisting with application submission to the Estonian authorities",
-        "Coordinating the pickup of your e-Residency kit at embassies or designated locations",
-        "Setting up your digital signature for secure online transactions",
+        "Explaining KYC requirements specific to each bank or financial institution",
+        "Assisting with document collection, including proof of identity, address, and business activities",
+        "Ensuring your application meets anti-money laundering (AML) and compliance standards",
+        "Offering support for virtual or in-person KYC interviews, if required",
       ],
     },
     {
-      title: "Business Banking and Payment Solutions",
+      title: "Bank Account Application Support",
       description:
-        "Accessing EU banking is a key benefit of e-Residency. We help you navigate the banking landscape.",
+        "We streamline the application process to save you time and reduce rejections.",
       features: [
-        "Open a business bank account with trusted EU financial institutions",
-        "Connect to payment gateways like Stripe, PayPal, and Wise for global transactions",
-        "Navigate banking requirements, including KYC (Know Your Customer) processes",
-        "Optimize your financial setup for international operations",
+        "Submitting your application to trusted Estonian banks or fintech providers",
+        "Coordinating with financial institutions to track your application status",
+        "Providing guidance on account types (e.g., multi-currency accounts, business accounts)",
+        "Helping you set up online banking and mobile access once approved",
       ],
     },
     {
-      title: "Tax and Compliance Support",
+      title: "Payment Platform Integration",
       description:
-        "Estonia's business environment is transparent but requires adherence to EU regulations. We ensure your business stays compliant.",
+        "Beyond traditional banking, we help you connect to global payment solutions essential for digital businesses.",
       features: [
-        "Registering your company for VAT (if applicable)",
-        "Providing guidance on Estonia's tax system, including e-Tax filing",
-        "Offering ongoing compliance support to meet annual reporting requirements",
-        "Connecting you with trusted accountants for tailored tax advice",
+        "Setting up accounts with payment gateways like Stripe, PayPal, and Wise",
+        "Configuring payment systems to accept international transactions",
+        "Optimizing your financial setup for low fees and efficient cross-border payments",
+        "Troubleshooting integration issues to ensure smooth operations",
       ],
     },
     {
-      title: "Virtual Office Solutions",
-      description:
-        "A physical address in Estonia is mandatory for company registration. We provide compliant solutions.",
+      title: "Ongoing Banking Support",
+      description: "Our support continues after your account is opened.",
       features: [
-        "A compliant legal address in Estonia",
-        "Mail forwarding and scanning services",
-        "Optional virtual office packages for professional correspondence",
+        "Guidance on managing your account remotely using Estonia's digital tools",
+        "Assistance with compliance, such as reporting requirements for tax authorities",
+        "Advice on scaling your banking setup as your business grows",
+        "Access to our network of financial experts for personalized consultancy",
       ],
     },
   ];
@@ -119,59 +122,59 @@ export default function BusinessSetupPage() {
       number: "01",
       title: "Consultation",
       description:
-        "Book a free consultation to discuss your business goals and needs. We'll tailor a setup plan for you.",
+        "Book a free consultation to discuss your banking needs and business goals. We'll recommend the best solutions for you.",
     },
     {
       number: "02",
-      title: "E-Residency Application",
+      title: "Document Preparation",
       description:
-        "Apply for your e-Residency digital ID with our expert guidance. Approval typically takes 3–6 weeks.",
+        "We help you gather and organize required documents, ensuring compliance with KYC and bank requirements.",
     },
     {
       number: "03",
-      title: "Company Registration",
+      title: "Application Submission",
       description:
-        "Once approved, we register your Estonian company online, usually within 1–3 business days.",
+        "We submit your application to your chosen bank or fintech provider and monitor its progress.",
     },
     {
       number: "04",
-      title: "Banking Setup",
+      title: "Account Activation",
       description:
-        "Open your EU business bank account and connect to payment platforms with our support.",
+        "Once approved, we guide you through setting up online banking, payment platforms, and digital tools.",
     },
     {
       number: "05",
       title: "Ongoing Support",
       description:
-        "Access our tools and consultancy services to manage compliance, taxes, and growth.",
+        "Access our expertise to manage your account, optimize finances, and stay compliant.",
     },
   ];
 
   const whyChooseUs = [
     {
-      title: "Expert Guidance",
+      title: "Expert Navigation",
       description:
-        "Our team has helped thousands of entrepreneurs from over 100 countries establish their EU businesses.",
+        "Our team has extensive experience helping e-Residents open accounts, even in complex cases.",
     },
     {
-      title: "Time-Saving Process",
+      title: "Time Efficiency",
       description:
-        "We handle the paperwork and logistics, so you can focus on growing your business.",
+        "We handle the paperwork and coordination, so you can focus on running your business.",
     },
     {
-      title: "AI-Powered Efficiency",
+      title: "Tailored Solutions",
       description:
-        "Our platform, optimized for iOS and Android, streamlines applications and document management.",
+        "We match you with banks or fintechs that suit your business model, whether you're a freelancer or a startup.",
     },
     {
-      title: "Transparent Pricing",
+      title: "Global Reach",
       description:
-        "No hidden fees—just clear, affordable packages tailored to your needs.",
+        "Connect to payment platforms that support transactions in over 150 countries.",
     },
     {
-      title: "Global Network",
+      title: "Secure and Compliant",
       description:
-        "Join a community of over 20,000 e-residents for collaboration and support.",
+        "We ensure your application meets Estonia's strict regulatory standards for peace of mind.",
     },
   ];
 
@@ -182,41 +185,43 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
-              Business Setup Services
+              Banking Services
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
-              Business Setup with Global E-Residency
+              Banking Services with Global E-Residency
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
-              Launch your EU-based business effortlessly with Global
-              E-Residency's expert business setup services. Through Estonia's
-              innovative e-Residency program, we help digital nomads,
-              freelancers, and entrepreneurs establish and manage a
-              location-independent company entirely online.
+              Opening a business bank account in Estonia is a critical step for
+              e-Residents looking to operate an EU-based company. At Global
+              E-Residency, we simplify the process, helping digital nomads,
+              freelancers, and entrepreneurs access trusted EU banking solutions
+              and global payment platforms. Our expert guidance ensures you can
+              manage your finances seamlessly, no matter where you are in the
+              world.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                 Book Free Consultation
               </Button>
               <Button size="lg" variant="outline">
-                Download Free Guide
+                Download Banking Guide
               </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Estonia Section */}
+      {/* Why Estonian Banking Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              Why Set Up a Business in Estonia?
+              Why Choose Estonian Banking?
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Estonia's e-Residency program is designed for global
-              entrepreneurs, offering a transparent, digital-first business
-              environment.
+              Estonia's digital-first economy and e-Residency program make it an
+              ideal hub for international business banking. By opening a bank
+              account in Estonia, you gain:
             </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -250,11 +255,13 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              Our Business Setup Services
+              How We Help You Open a Bank Account
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Global E-Residency provides comprehensive support to make your EU
-              business setup simple, fast, and cost-effective.
+              Global E-Residency provides end-to-end support to make opening an
+              Estonian business bank account straightforward and efficient. Our
+              services are tailored to the unique needs of e-Residents, ensuring
+              compliance and minimizing delays.
             </p>
 
             <div className="space-y-8">
@@ -290,16 +297,16 @@ export default function BusinessSetupPage() {
         </div>
       </section>
 
-      {/* How It Works Section */}
+      {/* Process Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              How It Works
+              The Process: Step by Step
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Starting your EU business with Global E-Residency is
-              straightforward. Follow these steps to get up and running:
+              Opening a business bank account with Global E-Residency is
+              designed to be fast and hassle-free. Here's how it works:
             </p>
 
             <div className="space-y-8">
@@ -323,12 +330,12 @@ export default function BusinessSetupPage() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
+      {/* Benefits Section */}
       <section className="py-20 bg-slate-50 dark:bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Benefits of Choosing Global E-Residency
+              Benefits of Our Banking Services
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -357,13 +364,13 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Start Your EU Business?
+              Ready to Open Your Estonian Bank Account?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Take the first step toward building your global,
-              location-independent business today. With Global E-Residency,
-              you're not just setting up a company—you're unlocking a world of
-              opportunities in the EU and beyond.
+              Unlock the power of EU banking with Global E-Residency. Whether
+              you're launching a startup, freelancing globally, or expanding
+              your business, our banking services make it easy to manage your
+              finances from anywhere.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -377,11 +384,11 @@ export default function BusinessSetupPage() {
                 variant="outline"
                 className="border-white text-white hover:bg-white hover:text-blue-600"
               >
-                Download Our Free Guide
+                Download Our Free Banking Guide
               </Button>
             </div>
             <p className="mt-6 opacity-75">
-              Have questions?{" "}
+              Need assistance?{" "}
               <span className="underline cursor-pointer">Contact Us</span> for
               personalized support.
             </p>

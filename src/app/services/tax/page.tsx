@@ -10,106 +10,110 @@ import {
 import { Badge } from "@/components/ui/badge";
 import {
   CheckCircle,
+  Calculator,
+  FileText,
   Globe,
   Shield,
+  Smartphone,
   TrendingUp,
   Users,
-  Zap,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Business Setup - Global E-Residency | Launch Your EU Company Online",
+  title:
+    "Tax Services - Global E-Residency | Estonian Tax Management for EU Businesses",
   description:
-    "Launch your EU-based business effortlessly with Global E-Residency's expert business setup services through Estonia's e-Residency program. 100% online, compliant, and cost-effective.",
+    "Expert tax services for EU-based businesses in Estonia. Navigate Estonia's 0% corporate tax system with Global E-Residency's comprehensive tax support and compliance services.",
 };
 
-export default function BusinessSetupPage() {
+export default function TaxServicesPage() {
   const benefits = [
     {
-      icon: <Globe className="h-6 w-6" />,
-      title: "Access to the EU Market",
-      description:
-        "Operate within the European Union, opening doors to 27 member states and over 450 million consumers.",
-    },
-    {
-      icon: <Zap className="h-6 w-6" />,
-      title: "100% Online Management",
-      description:
-        "Register and manage your business remotely using Estonia's secure digital infrastructure.",
-    },
-    {
       icon: <TrendingUp className="h-6 w-6" />,
-      title: "Competitive Tax System",
+      title: "0% Corporate Tax on Reinvested Profits",
       description:
-        "Benefit from Estonia's unique 0% corporate tax on reinvested profits, ideal for growth-focused businesses.",
+        "Pay no corporate income tax until profits are distributed, ideal for startups and growth-focused businesses.",
+    },
+    {
+      icon: <Smartphone className="h-6 w-6" />,
+      title: "Transparent e-Tax System",
+      description:
+        "File taxes online with Estonia's user-friendly digital platform, saving time and reducing paperwork.",
+    },
+    {
+      icon: <Calculator className="h-6 w-6" />,
+      title: "Competitive VAT Structure",
+      description:
+        "Benefit from clear VAT rules within the EU, with support for registration and compliance.",
+    },
+    {
+      icon: <Globe className="h-6 w-6" />,
+      title: "Global Compatibility",
+      description:
+        "Estonia's tax system aligns with international standards, making it easy to operate across borders.",
     },
     {
       icon: <Shield className="h-6 w-6" />,
-      title: "Global Banking Solutions",
+      title: "No Double Taxation",
       description:
-        "Access EU business banking and payment platforms like Stripe and PayPal.",
-    },
-    {
-      icon: <Users className="h-6 w-6" />,
-      title: "Trusted Reputation",
-      description:
-        "Estonia ranks among the world's most digitally advanced nations, ensuring credibility for your business.",
+        "Estonia has tax treaties with over 60 countries, minimizing tax liabilities for global businesses.",
     },
   ];
 
   const services = [
     {
-      title: "Company Registration",
+      title: "Tax Consultation and Planning",
       description:
-        "We guide you through the entire process of registering your Estonian company, ensuring compliance with local regulations.",
+        "We help you understand Estonia's tax system and plan for success.",
       features: [
-        "Choose the optimal company structure (e.g., Private Limited Company, OÜ)",
-        "Prepare and submit registration documents online",
-        "Obtain a unique company registration code",
-        "Set up a legal address in Estonia, required for all businesses",
+        "Personalized consultations to assess your business's tax obligations",
+        "Guidance on tax optimization strategies, leveraging Estonia's 0% corporate tax on reinvested profits",
+        "Advice on structuring your business to minimize tax liabilities",
+        "Insights into international tax treaties to avoid double taxation",
       ],
     },
     {
-      title: "E-Residency Application Assistance",
+      title: "VAT Registration and Compliance",
       description:
-        "To manage an Estonian company, you'll need an e-Residency digital ID. We streamline the application process.",
+        "If your business operates within the EU, VAT registration may be required.",
       features: [
-        "Providing step-by-step guidance on required documents",
-        "Assisting with application submission to the Estonian authorities",
-        "Coordinating the pickup of your e-Residency kit at embassies or designated locations",
-        "Setting up your digital signature for secure online transactions",
+        "Determining if VAT registration is necessary based on your business activities",
+        "Registering your company for VAT with the Estonian Tax and Customs Board",
+        "Preparing and filing VAT returns, ensuring compliance with EU regulations",
+        "Advising on VAT exemptions and cross-border transactions",
       ],
     },
     {
-      title: "Business Banking and Payment Solutions",
+      title: "e-Tax Filing Support",
       description:
-        "Accessing EU banking is a key benefit of e-Residency. We help you navigate the banking landscape.",
+        "Estonia's digital e-Tax platform makes tax filing efficient, and we make it even easier.",
       features: [
-        "Open a business bank account with trusted EU financial institutions",
-        "Connect to payment gateways like Stripe, PayPal, and Wise for global transactions",
-        "Navigate banking requirements, including KYC (Know Your Customer) processes",
-        "Optimize your financial setup for international operations",
+        "Step-by-step guidance on using the e-Tax system with your e-Residency digital ID",
+        "Assistance with preparing and submitting annual tax reports",
+        "Support for filing corporate income tax, VAT, and other required declarations",
+        "Troubleshooting technical issues to ensure timely submissions",
       ],
     },
     {
-      title: "Tax and Compliance Support",
+      title: "Ongoing Compliance Monitoring",
       description:
-        "Estonia's business environment is transparent but requires adherence to EU regulations. We ensure your business stays compliant.",
+        "Staying compliant with Estonian and EU tax laws is critical.",
       features: [
-        "Registering your company for VAT (if applicable)",
-        "Providing guidance on Estonia's tax system, including e-Tax filing",
-        "Offering ongoing compliance support to meet annual reporting requirements",
-        "Connecting you with trusted accountants for tailored tax advice",
+        "Monitoring deadlines for tax filings and reporting requirements",
+        "Providing reminders for annual financial statements and tax obligations",
+        "Ensuring compliance with EU anti-money laundering (AML) and reporting standards",
+        "Offering updates on changes to Estonian tax regulations",
       ],
     },
     {
-      title: "Virtual Office Solutions",
+      title: "Accounting and Bookkeeping Referrals",
       description:
-        "A physical address in Estonia is mandatory for company registration. We provide compliant solutions.",
+        "For businesses needing detailed financial management, we connect you with trusted partners.",
       features: [
-        "A compliant legal address in Estonia",
-        "Mail forwarding and scanning services",
-        "Optional virtual office packages for professional correspondence",
+        "Referrals to certified accountants familiar with e-Residency businesses",
+        "Guidance on selecting bookkeeping software compatible with Estonian tax requirements",
+        "Support for integrating accounting tools with the e-Tax platform",
+        "Advice on maintaining accurate financial records for audits",
       ],
     },
   ];
@@ -119,31 +123,31 @@ export default function BusinessSetupPage() {
       number: "01",
       title: "Consultation",
       description:
-        "Book a free consultation to discuss your business goals and needs. We'll tailor a setup plan for you.",
+        "Book a free consultation to discuss your business and tax needs. We'll create a tailored tax plan.",
     },
     {
       number: "02",
-      title: "E-Residency Application",
+      title: "Tax Setup",
       description:
-        "Apply for your e-Residency digital ID with our expert guidance. Approval typically takes 3–6 weeks.",
+        "We assist with VAT registration (if needed) and set up your e-Tax account using your e-Residency digital ID.",
     },
     {
       number: "03",
-      title: "Company Registration",
+      title: "Filing Support",
       description:
-        "Once approved, we register your Estonian company online, usually within 1–3 business days.",
+        "We guide you through preparing and submitting tax returns, ensuring accuracy and compliance.",
     },
     {
       number: "04",
-      title: "Banking Setup",
+      title: "Ongoing Assistance",
       description:
-        "Open your EU business bank account and connect to payment platforms with our support.",
+        "Access our expertise for compliance monitoring, accounting referrals, and tax optimization.",
     },
     {
       number: "05",
-      title: "Ongoing Support",
+      title: "Growth Planning",
       description:
-        "Access our tools and consultancy services to manage compliance, taxes, and growth.",
+        "We provide ongoing advice to align your tax strategy with your business expansion goals.",
     },
   ];
 
@@ -151,27 +155,27 @@ export default function BusinessSetupPage() {
     {
       title: "Expert Guidance",
       description:
-        "Our team has helped thousands of entrepreneurs from over 100 countries establish their EU businesses.",
+        "Our team specializes in Estonia's tax system, ensuring accurate and up-to-date advice.",
     },
     {
-      title: "Time-Saving Process",
+      title: "Time Savings",
       description:
-        "We handle the paperwork and logistics, so you can focus on growing your business.",
+        "We handle the complexities of tax compliance, so you can focus on your business.",
     },
     {
-      title: "AI-Powered Efficiency",
+      title: "Digital Efficiency",
       description:
-        "Our platform, optimized for iOS and Android, streamlines applications and document management.",
+        "Leverage our AI-powered platform, optimized for iOS and Android, to streamline tax management.",
     },
     {
-      title: "Transparent Pricing",
+      title: "Cost-Effective Solutions",
       description:
-        "No hidden fees—just clear, affordable packages tailored to your needs.",
+        "Transparent pricing with no hidden fees, tailored to your business needs.",
     },
     {
-      title: "Global Network",
+      title: "Peace of Mind",
       description:
-        "Join a community of over 20,000 e-residents for collaboration and support.",
+        "Stay compliant with Estonian and EU regulations, avoiding penalties and surprises.",
     },
   ];
 
@@ -182,41 +186,43 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
-              Business Setup Services
+              Tax Services
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
-              Business Setup with Global E-Residency
+              Tax Services with Global E-Residency
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
-              Launch your EU-based business effortlessly with Global
-              E-Residency's expert business setup services. Through Estonia's
-              innovative e-Residency program, we help digital nomads,
-              freelancers, and entrepreneurs establish and manage a
-              location-independent company entirely online.
+              Navigating taxes for your EU-based business doesn't have to be
+              complicated. At Global E-Residency, we provide expert tax services
+              to help digital nomads, freelancers, and entrepreneurs manage
+              their obligations in Estonia's transparent and business-friendly
+              tax system. Our goal is to ensure compliance while maximizing the
+              benefits of Estonia's unique tax structure, so you can focus on
+              growing your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                 Book Free Consultation
               </Button>
               <Button size="lg" variant="outline">
-                Download Free Guide
+                Download Tax Guide
               </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Estonia Section */}
+      {/* Why Estonia's Tax System Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              Why Set Up a Business in Estonia?
+              Why Estonia's Tax System?
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Estonia's e-Residency program is designed for global
-              entrepreneurs, offering a transparent, digital-first business
-              environment.
+              Estonia's tax environment is designed to support global
+              entrepreneurs through simplicity and innovation. Key advantages
+              include:
             </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -250,11 +256,12 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              Our Business Setup Services
+              Our Tax Services
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Global E-Residency provides comprehensive support to make your EU
-              business setup simple, fast, and cost-effective.
+              Global E-Residency offers comprehensive tax support tailored to
+              e-Residents, ensuring your business stays compliant and optimized.
+              Our services include:
             </p>
 
             <div className="space-y-8">
@@ -290,7 +297,7 @@ export default function BusinessSetupPage() {
         </div>
       </section>
 
-      {/* How It Works Section */}
+      {/* Process Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -298,8 +305,8 @@ export default function BusinessSetupPage() {
               How It Works
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Starting your EU business with Global E-Residency is
-              straightforward. Follow these steps to get up and running:
+              Managing your taxes with Global E-Residency is simple and
+              stress-free. Follow these steps to stay compliant:
             </p>
 
             <div className="space-y-8">
@@ -323,12 +330,12 @@ export default function BusinessSetupPage() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
+      {/* Benefits Section */}
       <section className="py-20 bg-slate-50 dark:bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Benefits of Choosing Global E-Residency
+              Benefits of Our Tax Services
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -357,13 +364,12 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Start Your EU Business?
+              Ready to Simplify Your Taxes?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Take the first step toward building your global,
-              location-independent business today. With Global E-Residency,
-              you're not just setting up a company—you're unlocking a world of
-              opportunities in the EU and beyond.
+              Take control of your business taxes with Global E-Residency. Our
+              expert services make it easy to leverage Estonia's innovative tax
+              system, giving you more time to grow your global business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -377,7 +383,7 @@ export default function BusinessSetupPage() {
                 variant="outline"
                 className="border-white text-white hover:bg-white hover:text-blue-600"
               >
-                Download Our Free Guide
+                Download Our Free Tax Guide
               </Button>
             </div>
             <p className="mt-6 opacity-75">
