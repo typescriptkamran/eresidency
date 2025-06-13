@@ -1,23 +1,17 @@
 import { Metadata } from "next";
-import { Button } from "@/components/ui/button";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import {
-  CheckCircle,
   Calculator,
-  FileText,
   Globe,
   Shield,
   Smartphone,
   TrendingUp,
-  Users,
 } from "lucide-react";
+import { HeroSection } from "@/components/services/hero-section";
+import { BenefitsGrid } from "@/components/services/benefits-grid";
+import { ServicesSection } from "@/components/services/services-section";
+import { ProcessSteps } from "@/components/services/process-steps";
+import { BenefitsList } from "@/components/services/benefits-list";
+import { CTASection } from "@/components/services/cta-section";
 
 export const metadata: Metadata = {
   title:
@@ -181,36 +175,13 @@ export default function TaxServicesPage() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-slate-900 dark:to-slate-800 py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-4" variant="secondary">
-              Tax Services
-            </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
-              Tax Services with Global E-Residency
-            </h1>
-            <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
-              Navigating taxes for your EU-based business doesn't have to be
-              complicated. At Global E-Residency, we provide expert tax services
-              to help digital nomads, freelancers, and entrepreneurs manage
-              their obligations in Estonia's transparent and business-friendly
-              tax system. Our goal is to ensure compliance while maximizing the
-              benefits of Estonia's unique tax structure, so you can focus on
-              growing your business.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Book Free Consultation
-              </Button>
-              <Button size="lg" variant="outline">
-                Download Tax Guide
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroSection
+        badge="Tax Services"
+        title="Tax Services with Global E-Residency"
+        description="Navigating taxes for your EU-based business doesn't have to be complicated. At Global E-Residency, we provide expert tax services to help digital nomads, freelancers, and entrepreneurs manage their obligations in Estonia's transparent and business-friendly tax system. Our goal is to ensure compliance while maximizing the benefits of Estonia's unique tax structure, so you can focus on growing your business."
+        primaryButtonText="Book Free Consultation"
+        secondaryButtonText="Download Tax Guide"
+      />
 
       {/* Why Estonia's Tax System Section */}
       <section className="py-20">
