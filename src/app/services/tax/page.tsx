@@ -5,7 +5,16 @@ import {
   Shield,
   Smartphone,
   TrendingUp,
+  CheckCircle,
 } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { HeroSection } from "@/components/services/hero-section";
 import { BenefitsGrid } from "@/components/services/benefits-grid";
 import { ServicesSection } from "@/components/services/services-section";
