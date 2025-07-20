@@ -5,7 +5,16 @@ import {
   Shield,
   Smartphone,
   TrendingUp,
+  CheckCircle,
 } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { HeroSection } from "@/components/services/hero-section";
 import { BenefitsGrid } from "@/components/services/benefits-grid";
 import { ServicesSection } from "@/components/services/services-section";
@@ -183,36 +192,188 @@ export default function TaxServicesPage() {
         secondaryButtonText="Download Tax Guide"
       />
 
-      <BenefitsGrid
-        title="Why Estonia's Tax System?"
-        subtitle="Estonia's tax environment is designed to support global entrepreneurs through simplicity and innovation. Key advantages include:"
-        benefits={benefits}
-      />
+      {/* Why Estonia's Tax System Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Why Estonia's Tax System?
+            </h2>
+            <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
+              Estonia's tax environment is designed to support global
+              entrepreneurs through simplicity and innovation. Key advantages
+              include:
+            </p>
 
-      <ServicesSection
-        title="Our Tax Services"
-        subtitle="Global E-Residency offers comprehensive tax support tailored to e-Residents, ensuring your business stays compliant and optimized. Our services include:"
-        services={services}
-      />
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {benefits.map((benefit, index) => (
+                <Card
+                  key={index}
+                  className="border-2 hover:border-blue-200 transition-colors"
+                >
+                  <CardHeader>
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg text-blue-600 dark:text-blue-400">
+                        {benefit.icon}
+                      </div>
+                      <CardTitle className="text-lg">{benefit.title}</CardTitle>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-slate-600 dark:text-slate-300">
+                      {benefit.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <ProcessSteps
-        title="How It Works"
-        subtitle="Managing your taxes with Global E-Residency is simple and stress-free. Follow these steps to stay compliant:"
-        steps={steps}
-      />
+      {/* Services Section */}
+      <section className="py-20 bg-slate-50 dark:bg-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Our Tax Services
+            </h2>
+            <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
+              Global E-Residency offers comprehensive tax support tailored to
+              e-Residents, ensuring your business stays compliant and optimized.
+              Our services include:
+            </p>
 
-      <BenefitsList
-        title="Benefits of Our Tax Services"
-        benefits={whyChooseUs}
-      />
+            <div className="space-y-8">
+              {services.map((service, index) => (
+                <Card key={index} className="border-2">
+                  <CardHeader>
+                    <CardTitle className="text-xl">
+                      {index + 1}. {service.title}
+                    </CardTitle>
+                    <CardDescription className="text-base">
+                      {service.description}
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid md:grid-cols-2 gap-3">
+                      {service.features.map((feature, featureIndex) => (
+                        <div
+                          key={featureIndex}
+                          className="flex items-start gap-2"
+                        >
+                          <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-slate-600 dark:text-slate-300">
+                            {feature}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <CTASection
-        title="Ready to Simplify Your Taxes?"
-        description="Take control of your business taxes with Global E-Residency. Our expert services make it easy to leverage Estonia's innovative tax system, giving you more time to grow your global business."
-        primaryButtonText="Book a Free Consultation"
-        secondaryButtonText="Download Our Free Tax Guide"
-        footerText="Have questions? Contact Us for personalized support."
-      />
+      {/* Process Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              How It Works
+            </h2>
+            <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
+              Managing your taxes with Global E-Residency is simple and
+              stress-free. Follow these steps to stay compliant:
+            </p>
+
+            <div className="space-y-8">
+              {steps.map((step, index) => (
+                <div key={index} className="flex gap-6 items-start">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                      {step.number}
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+                    <p className="text-slate-600 dark:text-slate-300">
+                      {step.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="py-20 bg-slate-50 dark:bg-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Benefits of Our Tax Services
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {whyChooseUs.map((benefit, index) => (
+                <div key={index} className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <CheckCircle className="h-6 w-6 text-green-600 mt-1" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">
+                      {benefit.title}
+                    </h3>
+                    <p className="text-slate-600 dark:text-slate-300">
+                      {benefit.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Ready to Simplify Your Taxes?
+            </h2>
+            <p className="text-xl mb-8 opacity-90">
+              Take control of your business taxes with Global E-Residency. Our
+              expert services make it easy to leverage Estonia's innovative tax
+              system, giving you more time to grow your global business.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                size="lg"
+                className="bg-white text-blue-600 hover:bg-gray-100"
+              >
+                Book a Free Consultation
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-blue-600"
+              >
+                Download Our Free Tax Guide
+              </Button>
+            </div>
+            <p className="mt-6 opacity-75">
+              Have questions?{" "}
+              <span className="underline cursor-pointer">Contact Us</span> for
+              personalized support.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
