@@ -12,12 +12,12 @@ export function SEOContent() {
   const seoContent = [
     {
       id: "estonia",
-      title: "E-Residency in Estonia",
+      title: "Global E-Residency in Estonia",
       icon: <Globe className="h-5 w-5 text-blue-500" />,
       content: (
         <>
           <p className="mb-4">
-            Estonia's pioneering e-Residency program offers entrepreneurs
+            Estonia's pioneering Global E-Residency program offers entrepreneurs
             worldwide the ability to establish and manage an EU-based business
             entirely online. As the first country to introduce such a program,
             Estonia provides a mature digital infrastructure, transparent tax
@@ -31,7 +31,7 @@ export function SEOContent() {
           </p>
           <p>
             Ideal for digital nomads, freelancers, and startup founders,
-            Estonian e-Residency opens doors to European business opportunities
+            Estonian Global E-Residency opens doors to European business opportunities
             without requiring physical relocation.
           </p>
         </>
@@ -47,12 +47,12 @@ export function SEOContent() {
             Our comprehensive digital nomad business solutions empower
             location-independent professionals to establish legitimate business
             structures while maintaining their mobile lifestyle. Through
-            e-residency programs, digital nomads can access banking services,
+            Global E-Residency programs, digital nomads can access banking services,
             process payments, and fulfill tax obligations regardless of their
             physical location.
           </p>
           <p className="mb-4">
-            We provide tailored guidance on selecting the optimal e-residency
+            We provide tailored guidance on selecting the optimal Global E-Residency
             program based on your specific business needs, travel patterns, and
             long-term goals. Our AI-powered assessment tool analyzes your unique
             situation to recommend the most advantageous jurisdiction.
@@ -76,7 +76,7 @@ export function SEOContent() {
             various jurisdictions' legal frameworks, tax implications, and
             compliance requirements. Our platform streamlines this complex
             process, offering comprehensive guidance on establishing your
-            business in e-residency countries.
+            business in Global E-Residency countries.
           </p>
           <p className="mb-4">
             We facilitate every step of the registration process, from document
@@ -100,7 +100,7 @@ export function SEOContent() {
       content: (
         <>
           <p className="mb-4">
-            Beyond e-residency, many countries now offer specialized visa
+            Beyond Global E-Residency, many countries now offer specialized visa
             programs designed specifically for remote workers and digital
             nomads. These programs provide legal pathways to live in attractive
             destinations while working for employers or clients based elsewhere.
@@ -113,7 +113,7 @@ export function SEOContent() {
             factors.
           </p>
           <p>
-            Discover how combining e-residency with strategic remote work visa
+            Discover how combining Global E-Residency with strategic remote work visa
             options can optimize both your business structure and lifestyle
             choices, creating a truly location-independent professional
             existence.
@@ -127,10 +127,10 @@ export function SEOContent() {
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white mb-4">
-          Comprehensive E-Residency Resources
+          Comprehensive Global E-Residency Resources
         </h2>
         <p className="text-lg text-center text-slate-700 dark:text-slate-300 mb-12 max-w-3xl mx-auto">
-          Explore our in-depth guides on various aspects of e-residency and
+          Explore our in-depth guides on various aspects of Global E-Residency and
           international business opportunities
         </p>
 

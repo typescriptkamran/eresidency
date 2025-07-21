@@ -22,7 +22,7 @@ export default function PortugalPage() {
           <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
             <div className="h-64 bg-gradient-to-r from-amber-500 to-amber-700 flex items-center justify-center p-8">
               <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-                Portugal E-Residency Program
+                Portugal Global E-Residency Program
               </h1>
             </div>
 
@@ -34,7 +34,7 @@ export default function PortugalPage() {
                   </h2>
 
                   <p className="text-slate-700 dark:text-slate-300 mb-6">
-                    Portugal's e-residency program combines digital business
+                    Portugal's Global E-Residency program combines digital business
                     opportunities with a pathway to physical residency. With its
                     favorable tax regime, excellent quality of life, and
                     strategic location, Portugal offers entrepreneurs a unique
@@ -151,7 +151,7 @@ export default function PortugalPage() {
 
                     <p className="text-slate-700 dark:text-slate-300 mb-6">
                       Our team of experts can guide you through the entire
-                      Portuguese e-residency application process and help set up
+                      Portuguese Global E-Residency application process and help set up
                       your business.
                     </p>
 
@@ -181,7 +181,7 @@ export default function PortugalPage() {
                             className="flex items-center text-amber-600 dark:text-amber-500 hover:underline"
                           >
                             <FileText className="h-4 w-4 mr-2" />
-                            Portugal E-Residency Guide
+                            Portugal Global E-Residency Guide
                           </Link>
                         </li>
                         <li>
@@ -203,7 +203,7 @@ export default function PortugalPage() {
 
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Compare with Other E-Residency Programs
+              Compare with Other Global E-Residency Programs
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Not sure if Portugal is the right fit for your business needs?

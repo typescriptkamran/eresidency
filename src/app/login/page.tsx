@@ -34,7 +34,7 @@ export default function LoginPage() {
               Welcome Back
             </h1>
             <p className="mt-2 text-slate-600 dark:text-slate-400">
-              Sign in to access your e-residency dashboard
+              Sign in to access your Global E-Residency dashboard
             </p>
           </div>
 

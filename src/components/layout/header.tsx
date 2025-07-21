@@ -24,10 +24,7 @@ export function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <span className="text-l text-blue-600 dark:text-blue-500">
-                E-Residency
-              </span>
-              <span className="ml-1 text-l text-slate-900 dark:text-white">
-                Experts
+                Global E-Residency
               </span>
             </Link>
           </div>

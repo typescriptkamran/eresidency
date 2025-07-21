@@ -22,7 +22,7 @@ export default function LithuaniaPage() {
           <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
             <div className="h-64 bg-gradient-to-r from-green-500 to-green-700 flex items-center justify-center p-8">
               <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-                Lithuania E-Residency Program
+                Lithuania Global E-Residency Program
               </h1>
             </div>
 
@@ -34,7 +34,7 @@ export default function LithuaniaPage() {
                   </h2>
 
                   <p className="text-slate-700 dark:text-slate-300 mb-6">
-                    Lithuania's e-residency program offers entrepreneurs a
+                    Lithuania's Global E-Residency program offers entrepreneurs a
                     gateway to one of Europe's most dynamic fintech ecosystems.
                     With a business-friendly regulatory environment and
                     streamlined processes, Lithuania has positioned itself as an
@@ -115,7 +115,7 @@ export default function LithuaniaPage() {
                   <ol className="list-decimal list-inside space-y-3 mb-8 text-slate-700 dark:text-slate-300">
                     <li>
                       Submit your application through the official Lithuanian
-                      e-residency portal
+                      Global E-Residency portal
                     </li>
                     <li>
                       Pay the state fee (€90-120 depending on processing time)
@@ -156,7 +156,7 @@ export default function LithuaniaPage() {
 
                     <p className="text-slate-700 dark:text-slate-300 mb-6">
                       Our team of experts can guide you through the entire
-                      Lithuanian e-residency application process and help set up
+                      Lithuanian Global E-Residency application process and help set up
                       your business.
                     </p>
 
@@ -186,7 +186,7 @@ export default function LithuaniaPage() {
                             className="flex items-center text-green-600 dark:text-green-500 hover:underline"
                           >
                             <FileText className="h-4 w-4 mr-2" />
-                            Lithuania E-Residency Guide
+                            Lithuania Global E-Residency Guide
                           </Link>
                         </li>
                         <li>
@@ -208,7 +208,7 @@ export default function LithuaniaPage() {
 
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Compare with Other E-Residency Programs
+              Compare with Other Global E-Residency Programs
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Not sure if Lithuania is the right fit for your business needs?

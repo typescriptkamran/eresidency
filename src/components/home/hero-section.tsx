@@ -25,7 +25,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Unlock Your Global Business Potential with Hassle-Free E-Residency
+          Unlock Your Global Business Potential with Hassle-Free Global E-Residency
         </motion.h1>
 
         <motion.p
@@ -45,7 +45,7 @@ export function HeroSection() {
         >
           <Button asChild size="lg" className="text-lg px-8 py-6">
             <Link href="/consultation">
-              Discover Your E-Residency Path 
+              Discover Your Global E-Residency Path 
                 <ArrowForward className="size-6 mx-2"/>
                 Free Consultation
             </Link>

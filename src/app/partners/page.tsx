@@ -40,7 +40,7 @@ export default function PartnersPage() {
     {
       name: "Legal Tech Innovations",
       logo: "https://api.dicebear.com/7.x/initials/svg?seed=LTI&backgroundColor=ea580c&textColor=ffffff",
-      description: "Legal technology firm providing digital identity verification and document processing for e-residency applications.",
+      description: "Legal technology firm providing digital identity verification and document processing for Global E-Residency applications.",
       type: "Technology Partner",
     },
     {
@@ -61,7 +61,7 @@ export default function PartnersPage() {
               Our Partners
             </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
-              We collaborate with trusted service providers, financial institutions, and community organizations to deliver comprehensive e-residency solutions to our clients worldwide.
+              We collaborate with trusted service providers, financial institutions, and community organizations to deliver comprehensive Global E-Residency solutions to our clients worldwide.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export default function PartnersPage() {
                 {
                   icon: <Globe className="h-5 w-5 text-blue-600 dark:text-blue-400" />,
                   title: "Global Reach",
-                  desc: "Access our international client base of entrepreneurs and businesses seeking e-residency solutions.",
+                  desc: "Access our international client base of entrepreneurs and businesses seeking Global E-Residency solutions.",
                   bg: "bg-blue-100 dark:bg-blue-900",
                 },
                 {
@@ -112,7 +112,7 @@ export default function PartnersPage() {
                 {
                   icon: <Award className="h-5 w-5 text-purple-600 dark:text-purple-400" />,
                   title: "Credibility & Trust",
-                  desc: "Associate with our established brand and reputation in the e-residency consulting space.",
+                  desc: "Associate with our established brand and reputation in the Global E-Residency consulting space.",
                   bg: "bg-purple-100 dark:bg-purple-900",
                 },
                 {
@@ -144,7 +144,7 @@ export default function PartnersPage() {
                   Become a Partner
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300 mb-4">
-                  Join our growing ecosystem of trusted partners and expand your reach in the e-residency market. Let’s create impactful solutions together.
+                  Join our growing ecosystem of trusted partners and expand your reach in the Global E-Residency market. Let’s create impactful solutions together.
                 </p>
               </div>
               <div className="md:w-1/3 flex justify-center md:justify-end mt-6 md:mt-0">

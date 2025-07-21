@@ -12,19 +12,19 @@ export default function AboutPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="About E-Residency Experts"
-            subtitle="Learn about our mission, values, and the team behind our e-residency services"
+            title="About Global E-Residency"
+            subtitle="Learn about our mission, values, and the team behind our Global E-Residency services"
             imageSrc="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
             imageAlt="Team of professionals working together"
             height="md:h-[400px]"
           />
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-6">
-              About E-Residency Experts
+              About Global E-Residency
             </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
               We're a team of international business specialists dedicated to
-              helping entrepreneurs and businesses leverage e-residency programs
+              helping entrepreneurs and businesses leverage Global E-Residency programs
               worldwide to achieve their global ambitions.
             </p>
           </div>
@@ -35,7 +35,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-slate-700 dark:text-slate-300 mb-4">
-                At E-Residency Experts, our mission is to empower entrepreneurs
+                At Global E-Residency, our mission is to empower entrepreneurs
                 and businesses to operate globally without borders. We believe
                 that geographic limitations should never hinder business
                 potential in today's digital world.
@@ -43,7 +43,7 @@ export default function AboutPage() {
               <p className="text-slate-700 dark:text-slate-300 mb-4">
                 We're committed to providing expert guidance, personalized
                 solutions, and ongoing support to help our clients navigate the
-                complexities of international business setup through e-residency
+                complexities of international business setup through Global E-Residency
                 programs.
               </p>
               <p className="text-slate-700 dark:text-slate-300">
@@ -64,7 +64,7 @@ export default function AboutPage() {
                   <span className="text-slate-700 dark:text-slate-300">
                     <strong>Expertise:</strong> Our team includes legal experts,
                     tax advisors, and business consultants with specialized
-                    knowledge in e-residency programs.
+                    knowledge in Global E-Residency programs.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -163,17 +163,17 @@ export default function AboutPage() {
             </h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-slate-700 dark:text-slate-300 mb-4">
-                E-Residency Experts was founded in 2018 by a group of
+                Global E-Residency was founded in 2018 by a group of
                 international business consultants who recognized the
-                transformative potential of Estonia's pioneering e-residency
+                transformative potential of Estonia's pioneering Global E-Residency
                 program. As early adopters themselves, our founders experienced
                 firsthand the benefits and challenges of navigating this new
                 digital frontier.
               </p>
               <p className="text-slate-700 dark:text-slate-300 mb-4">
-                What began as a specialized consultancy for Estonian e-residency
+                What began as a specialized consultancy for Estonian Global E-Residency
                 has evolved into a comprehensive service covering multiple
-                e-residency programs worldwide. As more countries have launched
+                Global E-Residency programs worldwide. As more countries have launched
                 their own versions of digital residency, we've expanded our
                 expertise to help clients choose the right program for their
                 specific needs.
@@ -181,7 +181,7 @@ export default function AboutPage() {
               <p className="text-slate-700 dark:text-slate-300 mb-4">
                 Today, we're proud to have helped over 1,000 entrepreneurs and
                 businesses from more than 50 countries establish and grow their
-                operations through various e-residency programs. Our team has
+                operations through various Global E-Residency programs. Our team has
                 grown to include experts from diverse backgrounds, including
                 law, taxation, business administration, and technology.
               </p>
@@ -196,12 +196,12 @@ export default function AboutPage() {
 
           <div className="text-center mb-16">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
-              Ready to Start Your E-Residency Journey?
+              Ready to Start Your Global E-Residency Journey?
             </h2>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
               Whether you're just exploring your options or ready to take the
               next step, our team is here to help you navigate the world of
-              e-residency.
+              Global E-Residency.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button asChild size="lg">

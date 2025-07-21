@@ -14,7 +14,7 @@ export default function StoriesPage() {
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
       quote:
-        "Estonia's e-residency program allowed me to run my consulting business from anywhere in the world while maintaining EU presence. The digital infrastructure is simply amazing.",
+        "Estonia's Global E-Residency program allowed me to run my consulting business from anywhere in the world while maintaining EU presence. The digital infrastructure is simply amazing.",
       business: "Digital Marketing Consultancy",
     },
     {
@@ -34,7 +34,7 @@ export default function StoriesPage() {
       image:
         "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
       quote:
-        "Ukraine's e-residency program offered us an affordable way to establish our software development company with access to amazing tech talent. The low operational costs have been a game-changer.",
+        "Ukraine's Global E-Residency program offered us an affordable way to establish our software development company with access to amazing tech talent. The low operational costs have been a game-changer.",
       business: "Software Development",
     },
     {
@@ -44,7 +44,7 @@ export default function StoriesPage() {
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
       quote:
-        "Portugal's e-residency program gave our import/export business the perfect EU base with favorable tax conditions and excellent logistics connections to both Europe and South America.",
+        "Portugal's Global E-Residency program gave our import/export business the perfect EU base with favorable tax conditions and excellent logistics connections to both Europe and South America.",
       business: "Import/Export Business",
     },
   ];
@@ -55,15 +55,15 @@ export default function StoriesPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="E-Residency Success Stories"
-            subtitle="Discover how entrepreneurs and businesses have leveraged e-residency programs to grow globally"
+            title="Global E-Residency Success Stories"
+            subtitle="Discover how entrepreneurs and businesses have leveraged Global E-Residency programs to grow globally"
             imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
-            imageAlt="Successful entrepreneurs with e-residency"
+            imageAlt="Successful entrepreneurs with Global E-Residency"
             height="md:h-[350px]"
           />
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12">
             Discover how entrepreneurs and businesses from around the world have
-            leveraged e-residency programs to grow their operations, optimize
+            leveraged Global E-Residency programs to grow their operations, optimize
             taxes, and access new markets.
           </p>
 
@@ -99,7 +99,7 @@ export default function StoriesPage() {
                         {story.business}
                       </span>
                       <span className="text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full">
-                        {story.country} E-Residency
+                        {story.country} Global E-Residency
                       </span>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default function StoriesPage() {
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
                   Our clients have saved an average of 15-30% on their tax
-                  obligations through strategic use of e-residency programs.
+                  obligations through strategic use of Global E-Residency programs.
                 </p>
               </div>
               <div className="bg-white dark:bg-slate-700 p-6 rounded-lg">
@@ -134,7 +134,7 @@ export default function StoriesPage() {
                   Market Access
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  E-residency has provided businesses with seamless access to
+                  Global E-Residency has provided businesses with seamless access to
                   the EU market and banking infrastructure.
                 </p>
               </div>
@@ -152,12 +152,12 @@ export default function StoriesPage() {
 
           <div className="text-center mb-16">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
-              Share Your E-Residency Success Story
+              Share Your Global E-Residency Success Story
             </h2>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-6 max-w-3xl mx-auto">
-              Have you benefited from an e-residency program? We'd love to
+              Have you benefited from an Global E-Residency program? We'd love to
               feature your story and insights to help others on their
-              e-residency journey.
+              Global E-Residency journey.
             </p>
             <Button asChild size="lg">
               <Link href="/contact?subject=Success%20Story">
@@ -171,7 +171,7 @@ export default function StoriesPage() {
               Ready to Create Your Own Success Story?
             </h2>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-6 max-w-3xl mx-auto">
-              Our e-residency experts can help you navigate the options and find
+              Our Global E-Residency can help you navigate the options and find
               the perfect program for your business needs.
             </p>
             <Button asChild size="lg" className="px-8 py-6 text-lg">

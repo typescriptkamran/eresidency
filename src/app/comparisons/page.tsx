@@ -11,14 +11,14 @@ export default function ComparisonsPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="E-Residency Program Comparisons"
-            subtitle="Compare different e-residency programs side by side to find the best option for your business needs"
+            title="Global E-Residency Program Comparisons"
+            subtitle="Compare different Global E-Residency programs side by side to find the best option for your business needs"
             imageSrc="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80"
             imageAlt="Comparison of different business options"
             height="md:h-[350px]"
           />
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12">
-            Compare different e-residency programs side by side to find the best
+            Compare different Global E-Residency programs side by side to find the best
             option for your business needs. Our comprehensive comparison tool
             helps you evaluate key factors like tax benefits, setup costs, and
             ongoing requirements.
@@ -147,7 +147,7 @@ export default function ComparisonsPage() {
                 Tax Benefits Comparison
               </h3>
               <p className="text-slate-700 dark:text-slate-300 mb-4">
-                Different e-residency programs offer varying tax advantages.
+                Different Global E-Residency programs offer varying tax advantages.
                 Estonia's 0% corporate tax on reinvested profits stands out,
                 while Lithuania offers attractive tax incentives for startups
                 and tech companies.
@@ -177,7 +177,7 @@ export default function ComparisonsPage() {
               Need Help Choosing the Right Program?
             </h2>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-6 max-w-3xl mx-auto">
-              Our e-residency experts can provide personalized guidance based on
+              Our Global E-Residency can provide personalized guidance based on
               your specific business needs and goals.
             </p>
             <Button asChild size="lg" className="px-8 py-6 text-lg">

@@ -20,7 +20,7 @@ export function IOSPreviewSection() {
 
             <p className="text-lg text-slate-600 dark:text-slate-400">
               We've created a beautiful, intuitive mobile interface using the
-              iOS 15 design language. Experience our e-residency information in
+              iOS 15 design language. Experience our Global E-Residency information in
               a touch-friendly, animated environment optimized for mobile
               devices.
             </p>

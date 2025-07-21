@@ -22,7 +22,7 @@ export default function UkrainePage() {
           <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
             <div className="h-64 bg-gradient-to-r from-indigo-500 to-indigo-700 flex items-center justify-center p-8">
               <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-                Ukraine E-Residency Program
+                Ukraine Global E-Residency Program
               </h1>
             </div>
 
@@ -34,7 +34,7 @@ export default function UkrainePage() {
                   </h2>
 
                   <p className="text-slate-700 dark:text-slate-300 mb-6">
-                    Ukraine's e-residency program is part of the country's
+                    Ukraine's Global E-Residency program is part of the country's
                     ambitious Diia City initiative, designed to create a special
                     legal framework for the IT industry. Despite current
                     challenges, Ukraine continues to develop its digital
@@ -115,7 +115,7 @@ export default function UkrainePage() {
 
                   <ol className="list-decimal list-inside space-y-3 mb-8 text-slate-700 dark:text-slate-300">
                     <li>Register through Ukraine's Diia portal</li>
-                    <li>Complete the e-residency application form</li>
+                    <li>Complete the Global E-Residency application form</li>
                     <li>Pay the application fee (approximately €100)</li>
                     <li>Undergo verification process</li>
                     <li>Receive digital identity credentials</li>
@@ -128,7 +128,7 @@ export default function UkrainePage() {
                   <div className="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-500 p-4 mb-8">
                     <p className="text-amber-800 dark:text-amber-200 font-medium">
                       Important Note: Due to the current situation in Ukraine,
-                      some aspects of the e-residency program may be temporarily
+                      some aspects of the Global E-Residency program may be temporarily
                       modified or have limited functionality. Our consultants
                       can provide you with the most up-to-date information.
                     </p>
@@ -156,7 +156,7 @@ export default function UkrainePage() {
 
                     <p className="text-slate-700 dark:text-slate-300 mb-6">
                       Our team of experts can guide you through the Ukrainian
-                      e-residency application process and help you understand
+                      Global E-Residency application process and help you understand
                       the current status and opportunities.
                     </p>
 
@@ -186,7 +186,7 @@ export default function UkrainePage() {
                             className="flex items-center text-indigo-600 dark:text-indigo-500 hover:underline"
                           >
                             <FileText className="h-4 w-4 mr-2" />
-                            Ukraine E-Residency Guide
+                            Ukraine Global E-Residency Guide
                           </Link>
                         </li>
                         <li>
@@ -208,7 +208,7 @@ export default function UkrainePage() {
 
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Compare with Other E-Residency Programs
+              Compare with Other Global E-Residency Programs
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Not sure if Ukraine is the right fit for your business needs?

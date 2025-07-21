@@ -13,7 +13,7 @@ export default function ConsultationPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="Schedule Your Free E-Residency Consultation"
+            title="Schedule Your Free Global E-Residency Consultation"
             subtitle="Speak with our experts to get personalized guidance on choosing the right program"
             imageSrc="https://images.unsplash.com/photo-1573497491765-dccce02b29df?w=1200&q=80"
             imageAlt="Business consultation meeting"
@@ -22,7 +22,7 @@ export default function ConsultationPage() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <p className="text-lg text-slate-700 dark:text-slate-300 mb-8">
-                Speak with our e-residency experts to get personalized guidance
+                Speak with our Global E-Residency to get personalized guidance
                 on choosing the right program for your business needs and
                 navigating the application process.
               </p>
@@ -34,7 +34,7 @@ export default function ConsultationPage() {
                 <ul className="space-y-3">
                   {[
                     "Personalized assessment of your business needs",
-                    "Detailed comparison of suitable e-residency options",
+                    "Detailed comparison of suitable Global E-Residency options",
                     "Step-by-step guidance on the application process",
                     "Information on banking, taxation, and compliance",
                     "Answers to all your specific questions",
@@ -91,7 +91,7 @@ export default function ConsultationPage() {
                         Phone Call (30 minutes)
                       </label>
                       <p className="text-sm text-slate-600 dark:text-slate-400">
-                        Speak directly with an e-residency expert
+                        Speak directly with an Global E-Residency expert
                       </p>
                     </div>
                   </div>

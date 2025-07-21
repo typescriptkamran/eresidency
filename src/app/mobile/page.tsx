@@ -15,21 +15,21 @@ export default function MobilePage() {
 
   const programCards = [
     {
-      title: "Estonia E-Residency",
+      title: "Estonia Global E-Residency",
       description: "Digital nomad's favorite for EU business operations",
       imageSrc:
         "https://images.unsplash.com/photo-1508189860359-777d945909ef?w=800&q=80",
       icon: <Globe className="h-5 w-5" />,
     },
     {
-      title: "Lithuania E-Residency",
+      title: "Lithuania Global E-Residency",
       description: "Emerging fintech hub with streamlined banking",
       imageSrc:
         "https://images.unsplash.com/photo-1565127453543-ad97b93afb61?w=800&q=80",
       icon: <Globe className="h-5 w-5" />,
     },
     {
-      title: "Portugal E-Residency",
+      title: "Portugal Global E-Residency",
       description: "Perfect for digital nomads seeking EU lifestyle",
       imageSrc:
         "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&q=80",
@@ -63,12 +63,12 @@ export default function MobilePage() {
         <div className="space-y-4">
           <IOSCard
             title="Consultation Services"
-            description="Expert guidance on choosing the right e-residency program"
+            description="Expert guidance on choosing the right Global E-Residency program"
             icon={<Info className="h-5 w-5" />}
           />
           <IOSCard
             title="Application Assistance"
-            description="End-to-end support for your e-residency application"
+            description="End-to-end support for your Global E-Residency application"
             icon={<Settings className="h-5 w-5" />}
           />
           <IOSCard
@@ -88,7 +88,7 @@ export default function MobilePage() {
 
       {/* Content */}
       <div className="px-5 pt-2 pb-24">
-        <h1 className="text-2xl font-bold mb-2">E-Residency Programs</h1>
+        <h1 className="text-2xl font-bold mb-2">Global E-Residency Programs</h1>
         <p className="text-slate-600 dark:text-slate-400 mb-6">
           Explore global opportunities with digital residency
         </p>
@@ -128,9 +128,9 @@ export default function MobilePage() {
         title="Program Details"
       >
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold">Estonia E-Residency</h3>
+          <h3 className="text-xl font-semibold">Estonia Global E-Residency</h3>
           <p className="text-slate-600 dark:text-slate-400">
-            Estonia's e-Residency program allows digital entrepreneurs to
+            Estonia's Global E-Residency program allows digital entrepreneurs to
             establish and manage an EU-based business entirely online. As an
             e-resident, you can access Estonia's digital services, open a
             business bank account, and run your company remotely.

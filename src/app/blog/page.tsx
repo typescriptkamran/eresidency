@@ -5,40 +5,40 @@ import { Calendar, User, ArrowRight } from "lucide-react";
 
 export default function BlogPage() {
   const featuredPost = {
-    title: "The Future of E-Residency: Trends to Watch in 2023",
+    title: "The Future of Global E-Residency: Trends to Watch in 2023",
     excerpt:
-      "As digital nomadism and remote work continue to reshape the global economy, e-residency programs are evolving to meet new demands. Discover the key trends that will define the future of digital citizenship.",
+      "As digital nomadism and remote work continue to reshape the global economy, Global E-Residency programs are evolving to meet new demands. Discover the key trends that will define the future of digital citizenship.",
     date: "June 15, 2023",
     author: "Maria Rodriguez",
     category: "Trends",
     image:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
-    slug: "future-of-e-residency-trends",
+    slug: "future-of-Global E-Residency-trends",
   };
 
   const blogPosts = [
     {
       title:
-        "Estonian E-Residency vs. Lithuanian E-Residency: A Comprehensive Comparison",
+        "Estonian Global E-Residency vs. Lithuanian Global E-Residency: A Comprehensive Comparison",
       excerpt:
-        "Both Estonia and Lithuania offer compelling e-residency programs, but which one is right for your business? This detailed comparison breaks down the pros and cons of each.",
+        "Both Estonia and Lithuania offer compelling Global E-Residency programs, but which one is right for your business? This detailed comparison breaks down the pros and cons of each.",
       date: "May 28, 2023",
       author: "Alex Johnson",
       category: "Comparisons",
       image:
         "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=800&q=80",
-      slug: "estonia-vs-lithuania-e-residency",
+      slug: "estonia-vs-lithuania-Global E-Residency",
     },
     {
-      title: "Tax Implications of E-Residency: What You Need to Know",
+      title: "Tax Implications of Global E-Residency: What You Need to Know",
       excerpt:
-        "Understanding the tax implications of e-residency is crucial for optimizing your global business strategy. Learn about corporate taxes, VAT, and personal income considerations.",
+        "Understanding the tax implications of Global E-Residency is crucial for optimizing your global business strategy. Learn about corporate taxes, VAT, and personal income considerations.",
       date: "May 12, 2023",
       author: "David Chen",
       category: "Taxation",
       image:
         "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
-      slug: "tax-implications-e-residency",
+      slug: "tax-implications-Global E-Residency",
     },
     {
       title:
@@ -56,7 +56,7 @@ export default function BlogPage() {
       title:
         "Success Story: How Jane Built a 7-Figure Business as an Estonian E-Resident",
       excerpt:
-        "Jane transformed her freelance design business into a thriving agency by leveraging Estonian e-residency. Learn about her journey, challenges, and strategies for success.",
+        "Jane transformed her freelance design business into a thriving agency by leveraging Estonian Global E-Residency. Learn about her journey, challenges, and strategies for success.",
       date: "April 15, 2023",
       author: "Michael Brown",
       category: "Success Stories",
@@ -65,26 +65,26 @@ export default function BlogPage() {
       slug: "success-story-jane-e-resident",
     },
     {
-      title: "The Complete Guide to Portugal's New E-Residency Program",
+      title: "The Complete Guide to Portugal's New Global E-Residency Program",
       excerpt:
-        "Portugal has joined the e-residency movement with a program that offers unique benefits. Discover everything you need to know about applying, benefits, and business opportunities.",
+        "Portugal has joined the Global E-Residency movement with a program that offers unique benefits. Discover everything you need to know about applying, benefits, and business opportunities.",
       date: "March 22, 2023",
       author: "Ana Silva",
       category: "Guides",
       image:
         "https://images.unsplash.com/photo-1513735492246-483525079686?w=800&q=80",
-      slug: "portugal-e-residency-guide",
+      slug: "portugal-Global E-Residency-guide",
     },
     {
-      title: "Digital Nomad Visas vs. E-Residency: Which Is Right for You?",
+      title: "Digital Nomad Visas vs. Global E-Residency: Which Is Right for You?",
       excerpt:
-        "With more countries offering digital nomad visas, how do they compare to e-residency programs? This article explores the key differences and helps you make the right choice.",
+        "With more countries offering digital nomad visas, how do they compare to Global E-Residency programs? This article explores the key differences and helps you make the right choice.",
       date: "March 10, 2023",
       author: "James Wilson",
       category: "Lifestyle",
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
-      slug: "digital-nomad-visas-vs-e-residency",
+      slug: "digital-nomad-visas-vs-Global E-Residency",
     },
   ];
 
@@ -106,10 +106,10 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              E-Residency Blog
+              Global E-Residency Blog
             </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
-              Expert insights, guides, and news about e-residency programs and
+              Expert insights, guides, and news about Global E-Residency programs and
               international business opportunities.
             </p>
           </div>
@@ -255,7 +255,7 @@ export default function BlogPage() {
               Subscribe to Our Newsletter
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6 max-w-2xl mx-auto">
-              Get the latest e-residency insights, guides, and news delivered
+              Get the latest Global E-Residency insights, guides, and news delivered
               directly to your inbox.
             </p>
             <div className="max-w-md mx-auto">

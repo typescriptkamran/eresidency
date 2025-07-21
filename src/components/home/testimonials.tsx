@@ -6,7 +6,7 @@ export function Testimonials() {
   const testimonials = [
     {
       quote:
-        "Our e-residency platform transformed my freelance business. The AI-guided process made international expansion seamless and straightforward.",
+        "Our Global E-Residency platform transformed my freelance business. The AI-guided process made international expansion seamless and straightforward.",
       author: "Sarah M.",
       role: "Digital Nomad",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",

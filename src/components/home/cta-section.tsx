@@ -10,7 +10,7 @@ export function CTASection() {
         </h2>
         <p className="text-xl mb-10 max-w-3xl mx-auto">
           Join thousands of entrepreneurs who have successfully expanded their
-          business globally through e-residency programs.
+          business globally through Global E-Residency programs.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -27,7 +27,7 @@ export function CTASection() {
             variant="outline"
             className="bg-transparent border-white text-white hover:bg-white hover:text-blue-700"
           >
-            <Link href="/programs">Explore E-Residency Programs</Link>
+            <Link href="/programs">Explore Global E-Residency Programs</Link>
           </Button>
         </div>
       </div>

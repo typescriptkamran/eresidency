@@ -15,11 +15,11 @@ export function LeadMagnet() {
               </h3>
             </div>
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
-              The Ultimate Guide to E-Residency for Global Entrepreneurs
+              The Ultimate Guide to Global E-Residency for Global Entrepreneurs
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Download our comprehensive guide and learn everything you need to
-              know about establishing your global business through e-residency.
+              know about establishing your global business through Global E-Residency.
             </p>
             <form className="space-y-4">
               <Input

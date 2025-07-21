@@ -15,9 +15,9 @@ import { CTASection } from "@/components/services/cta-section";
 
 export const metadata: Metadata = {
   title:
-    "Banking Services - Global E-Residency | EU Business Banking Solutions",
+    "Banking Services - Global Global E-Residency | EU Business Banking Solutions",
   description:
-    "Open an Estonian business bank account with Global E-Residency. Access EU banking, global payment platforms, and digital financial solutions for e-Residents worldwide.",
+    "Open an Estonian business bank account with Global Global E-Residency. Access EU banking, global payment platforms, and digital financial solutions for e-Residents worldwide.",
 };
 
 export default function BankingServicesPage() {
@@ -60,9 +60,9 @@ export default function BankingServicesPage() {
       description:
         "We start by assessing your business needs to recommend the best banking options.",
       features: [
-        "Reviews your company structure and e-Residency status to ensure eligibility",
+        "Reviews your company structure and Global E-Residency status to ensure eligibility",
         "Advises on suitable banks or fintech solutions (e.g., traditional banks, EMIs like Wise, or neobanks)",
-        "Guides you on preparing essential documents, such as your e-Residency digital ID, company registration details, and business plan",
+        "Guides you on preparing essential documents, such as your Global E-Residency digital ID, company registration details, and business plan",
         "Provides tips to strengthen your application, especially for non-EU residents",
       ],
     },
@@ -176,27 +176,27 @@ export default function BankingServicesPage() {
     <div className="min-h-screen bg-white dark:bg-slate-950">
       <HeroSection
         badge="Banking Services"
-        title="Banking Services with Global E-Residency"
-        description="Opening a business bank account in Estonia is a critical step for e-Residents looking to operate an EU-based company. At Global E-Residency, we simplify the process, helping digital nomads, freelancers, and entrepreneurs access trusted EU banking solutions and global payment platforms. Our expert guidance ensures you can manage your finances seamlessly, no matter where you are in the world."
+        title="Banking Services with Global Global E-Residency"
+        description="Opening a business bank account in Estonia is a critical step for e-Residents looking to operate an EU-based company. At Global Global E-Residency, we simplify the process, helping digital nomads, freelancers, and entrepreneurs access trusted EU banking solutions and global payment platforms. Our expert guidance ensures you can manage your finances seamlessly, no matter where you are in the world."
         primaryButtonText="Book Free Consultation"
         secondaryButtonText="Download Banking Guide"
       />
 
       <BenefitsGrid
         title="Why Choose Estonian Banking?"
-        subtitle="Estonia's digital-first economy and e-Residency program make it an ideal hub for international business banking. By opening a bank account in Estonia, you gain:"
+        subtitle="Estonia's digital-first economy and Global E-Residency program make it an ideal hub for international business banking. By opening a bank account in Estonia, you gain:"
         benefits={benefits}
       />
 
       <ServicesSection
         title="How We Help You Open a Bank Account"
-        subtitle="Global E-Residency provides end-to-end support to make opening an Estonian business bank account straightforward and efficient. Our services are tailored to the unique needs of e-Residents, ensuring compliance and minimizing delays."
+        subtitle="Global Global E-Residency provides end-to-end support to make opening an Estonian business bank account straightforward and efficient. Our services are tailored to the unique needs of e-Residents, ensuring compliance and minimizing delays."
         services={services}
       />
 
       <ProcessSteps
         title="The Process: Step by Step"
-        subtitle="Opening a business bank account with Global E-Residency is designed to be fast and hassle-free. Here's how it works:"
+        subtitle="Opening a business bank account with Global Global E-Residency is designed to be fast and hassle-free. Here's how it works:"
         steps={steps}
       />
 
@@ -207,7 +207,7 @@ export default function BankingServicesPage() {
 
       <CTASection
         title="Ready to Open Your Estonian Bank Account?"
-        description="Unlock the power of EU banking with Global E-Residency. Whether you're launching a startup, freelancing globally, or expanding your business, our banking services make it easy to manage your finances from anywhere."
+        description="Unlock the power of EU banking with Global Global E-Residency. Whether you're launching a startup, freelancing globally, or expanding your business, our banking services make it easy to manage your finances from anywhere."
         primaryButtonText="Book a Free Consultation"
         secondaryButtonText="Download Our Free Banking Guide"
         footerText="Need assistance? Contact Us for personalized support."

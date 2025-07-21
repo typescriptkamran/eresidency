@@ -127,12 +127,12 @@ export default function NotFound() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Support e-Residency clients with business setup, banking, and
+                  Support  E-Residency clients with business setup, banking, and
                   tax queries, ensuring a seamless experience.
                 </p>
                 <p className="text-sm text-gray-500 mb-4">
                   <strong>Requirements:</strong> Excellent communication skills,
-                  experience in customer support, and knowledge of e-Residency
+                  experience in customer support, and knowledge of E-Residency
                   or international business.
                 </p>
                 <Link href="/careers">
@@ -288,7 +288,7 @@ export default function NotFound() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 text-sm text-center">
-                    Explore e-Residency options for different countries
+                    Explore E-Residency options for different countries
                   </p>
                 </CardContent>
               </Card>

@@ -7,11 +7,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Unlock Global Business Opportunities | E-Residency Experts",
+  title: "Unlock Global Business Opportunities | Global E-Residency",
   description:
-    "Simplify your international business journey with our comprehensive e-residency guidance. Expert consultations, AI-powered support, and seamless application process.",
+    "Simplify your international business journey with our comprehensive E-Residency guidance. Expert consultations, AI-powered support, and seamless application process.",
   keywords:
-    "e-residency, digital nomad, international business, remote work, global entrepreneurship",
+    "e-Residency, digital nomad, international business, remote work, global entrepreneurship",
 };
 
 export default function RootLayout({

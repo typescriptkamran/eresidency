@@ -19,7 +19,7 @@ export default function TermsOfServicePage() {
 
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Please read these Terms of Service ("Terms") carefully before
-              using the E-Residency Experts website or services. By accessing or
+              using the Global E-Residency website or services. By accessing or
               using our services, you agree to be bound by these Terms.
             </p>
 
@@ -29,7 +29,7 @@ export default function TermsOfServicePage() {
                   1. Acceptance of Terms
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300">
-                  By accessing or using the E-Residency Experts website,
+                  By accessing or using the Global E-Residency website,
                   applications, or any other services provided by us
                   (collectively, the "Services"), you agree to be bound by these
                   Terms. If you do not agree to all of these Terms, you may not
@@ -42,13 +42,13 @@ export default function TermsOfServicePage() {
                   2. Description of Services
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300 mb-4">
-                  E-Residency Experts provides information, resources, and
-                  consulting services related to e-residency programs in various
+                  Global E-Residency provides information, resources, and
+                  consulting services related to Global E-Residency programs in various
                   countries. Our Services may include, but are not limited to:
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-slate-700 dark:text-slate-300">
-                  <li>Informational content about e-residency programs</li>
-                  <li>Consultation services for e-residency applications</li>
+                  <li>Informational content about Global E-Residency programs</li>
+                  <li>Consultation services for Global E-Residency applications</li>
                   <li>Assistance with business setup for e-residents</li>
                   <li>Banking and financial services guidance</li>
                   <li>Tax advisory services</li>
@@ -145,7 +145,7 @@ export default function TermsOfServicePage() {
                       The content, features, and functionality of our Services,
                       including but not limited to text, graphics, logos, icons,
                       images, audio clips, digital downloads, data compilations,
-                      and software, are owned by E-Residency Experts or our
+                      and software, are owned by Global E-Residency or our
                       licensors and are protected by copyright, trademark, and
                       other intellectual property laws.
                     </p>
@@ -238,7 +238,7 @@ export default function TermsOfServicePage() {
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300">
                   TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL
-                  E-RESIDENCY EXPERTS, ITS AFFILIATES, OR THEIR RESPECTIVE
+                  Global E-Residency, ITS AFFILIATES, OR THEIR RESPECTIVE
                   OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY
                   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
                   DAMAGES, INCLUDING BUT NOT LIMITED TO, LOSS OF PROFITS, DATA,
@@ -258,7 +258,7 @@ export default function TermsOfServicePage() {
                   9. Indemnification
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300">
-                  You agree to defend, indemnify, and hold harmless E-Residency
+                  You agree to defend, indemnify, and hold harmless Global E-Residency
                   Experts, its affiliates, and their respective officers,
                   directors, employees, and agents from and against any claims,
                   liabilities, damages, losses, and expenses, including, without
@@ -318,9 +318,9 @@ export default function TermsOfServicePage() {
                 </p>
                 <div className="mt-4 bg-slate-50 dark:bg-slate-700 p-4 rounded-md">
                   <p className="text-slate-700 dark:text-slate-300">
-                    E-Residency Experts
+                    Global E-Residency
                     <br />
-                    Email: legal@e-residencyexperts.com
+                    Email: legal@Global E-Residencyexperts.com
                     <br />
                     Address: 123 Global Street, Business District, 10001
                     <br />

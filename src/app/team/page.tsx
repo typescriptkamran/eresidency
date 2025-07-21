@@ -14,7 +14,7 @@ export default function TeamPage() {
       image:
         "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
       linkedin: "#",
-      email: "alexandra@e-residencyexperts.com",
+      email: "alexandra@Global E-Residencyexperts.com",
       specialties: [
         "Strategic Planning",
         "Business Development",
@@ -24,11 +24,11 @@ export default function TeamPage() {
     {
       name: "Marcus Chen",
       role: "Head of Legal Services",
-      bio: "Marcus is an international business lawyer with expertise in EU corporate law and e-residency regulations. He ensures our clients receive accurate legal guidance for their global business operations.",
+      bio: "Marcus is an international business lawyer with expertise in EU corporate law and Global E-Residency regulations. He ensures our clients receive accurate legal guidance for their global business operations.",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
       linkedin: "#",
-      email: "marcus@e-residencyexperts.com",
+      email: "marcus@Global E-Residencyexperts.com",
       specialties: ["Corporate Law", "Compliance", "Regulatory Affairs"],
     },
     {
@@ -38,7 +38,7 @@ export default function TeamPage() {
       image:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
       linkedin: "#",
-      email: "elena@e-residencyexperts.com",
+      email: "elena@Global E-Residencyexperts.com",
       specialties: [
         "International Taxation",
         "Tax Planning",
@@ -52,7 +52,7 @@ export default function TeamPage() {
       image:
         "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=400&q=80",
       linkedin: "#",
-      email: "david@e-residencyexperts.com",
+      email: "david@Global E-Residencyexperts.com",
       specialties: [
         "Business Registration",
         "Process Optimization",
@@ -66,7 +66,7 @@ export default function TeamPage() {
       image:
         "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&q=80",
       linkedin: "#",
-      email: "sofia@e-residencyexperts.com",
+      email: "sofia@Global E-Residencyexperts.com",
       specialties: [
         "Banking Relationships",
         "Payment Solutions",
@@ -80,7 +80,7 @@ export default function TeamPage() {
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
       linkedin: "#",
-      email: "thomas@e-residencyexperts.com",
+      email: "thomas@Global E-Residencyexperts.com",
       specialties: [
         "Client Relationship Management",
         "Project Coordination",
@@ -98,14 +98,14 @@ export default function TeamPage() {
             title="Meet Our Team"
             subtitle="Our diverse team of experts brings together specialized knowledge in international business"
             imageSrc="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
-            imageAlt="Team of e-residency experts"
+            imageAlt="Team of Global E-Residency"
             height="md:h-[350px]"
           />
           <div className="text-center mb-16">
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
               Our diverse team of experts brings together specialized knowledge
               in international business, taxation, law, and technology to
-              provide comprehensive e-residency solutions.
+              provide comprehensive Global E-Residency solutions.
             </p>
           </div>
 
@@ -190,7 +190,7 @@ export default function TeamPage() {
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
                   We develop legal tax strategies that leverage the benefits of
-                  e-residency programs while ensuring full compliance.
+                  Global E-Residency programs while ensuring full compliance.
                 </p>
               </div>
               <div className="bg-white dark:bg-slate-700 p-6 rounded-lg">
@@ -220,7 +220,7 @@ export default function TeamPage() {
             </h2>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-6 max-w-3xl mx-auto">
               We're always looking for talented professionals who are passionate
-              about helping businesses go global through e-residency solutions.
+              about helping businesses go global through Global E-Residency solutions.
             </p>
             <Button asChild size="lg">
               <Link href="/careers">View Open Positions</Link>
@@ -233,7 +233,7 @@ export default function TeamPage() {
             </h2>
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
               Schedule a consultation with our team to discuss how we can help
-              you leverage e-residency for your business goals.
+              you leverage Global E-Residency for your business goals.
             </p>
             <Button asChild size="lg" className="px-8 py-6 text-lg">
               <Link href="/consultation">Book a Consultation</Link>

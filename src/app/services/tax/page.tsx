@@ -15,9 +15,9 @@ import { CTASection } from "@/components/services/cta-section";
 
 export const metadata: Metadata = {
   title:
-    "Tax Services - Global E-Residency | Estonian Tax Management for EU Businesses",
+    "Tax Services - Global Global E-Residency | Estonian Tax Management for EU Businesses",
   description:
-    "Expert tax services for EU-based businesses in Estonia. Navigate Estonia's 0% corporate tax system with Global E-Residency's comprehensive tax support and compliance services.",
+    "Expert tax services for EU-based businesses in Estonia. Navigate Estonia's 0% corporate tax system with Global Global E-Residency's comprehensive tax support and compliance services.",
 };
 
 export default function TaxServicesPage() {
@@ -82,7 +82,7 @@ export default function TaxServicesPage() {
       description:
         "Estonia's digital e-Tax platform makes tax filing efficient, and we make it even easier.",
       features: [
-        "Step-by-step guidance on using the e-Tax system with your e-Residency digital ID",
+        "Step-by-step guidance on using the e-Tax system with your Global E-Residency digital ID",
         "Assistance with preparing and submitting annual tax reports",
         "Support for filing corporate income tax, VAT, and other required declarations",
         "Troubleshooting technical issues to ensure timely submissions",
@@ -104,7 +104,7 @@ export default function TaxServicesPage() {
       description:
         "For businesses needing detailed financial management, we connect you with trusted partners.",
       features: [
-        "Referrals to certified accountants familiar with e-Residency businesses",
+        "Referrals to certified accountants familiar with Global E-Residency businesses",
         "Guidance on selecting bookkeeping software compatible with Estonian tax requirements",
         "Support for integrating accounting tools with the e-Tax platform",
         "Advice on maintaining accurate financial records for audits",
@@ -123,7 +123,7 @@ export default function TaxServicesPage() {
       number: "02",
       title: "Tax Setup",
       description:
-        "We assist with VAT registration (if needed) and set up your e-Tax account using your e-Residency digital ID.",
+        "We assist with VAT registration (if needed) and set up your e-Tax account using your Global E-Residency digital ID.",
     },
     {
       number: "03",
@@ -177,8 +177,8 @@ export default function TaxServicesPage() {
     <div className="min-h-screen bg-white dark:bg-slate-950">
       <HeroSection
         badge="Tax Services"
-        title="Tax Services with Global E-Residency"
-        description="Navigating taxes for your EU-based business doesn't have to be complicated. At Global E-Residency, we provide expert tax services to help digital nomads, freelancers, and entrepreneurs manage their obligations in Estonia's transparent and business-friendly tax system. Our goal is to ensure compliance while maximizing the benefits of Estonia's unique tax structure, so you can focus on growing your business."
+        title="Tax Services with Global Global E-Residency"
+        description="Navigating taxes for your EU-based business doesn't have to be complicated. At Global Global E-Residency, we provide expert tax services to help digital nomads, freelancers, and entrepreneurs manage their obligations in Estonia's transparent and business-friendly tax system. Our goal is to ensure compliance while maximizing the benefits of Estonia's unique tax structure, so you can focus on growing your business."
         primaryButtonText="Book Free Consultation"
         secondaryButtonText="Download Tax Guide"
       />
@@ -191,13 +191,13 @@ export default function TaxServicesPage() {
 
       <ServicesSection
         title="Our Tax Services"
-        subtitle="Global E-Residency offers comprehensive tax support tailored to e-Residents, ensuring your business stays compliant and optimized. Our services include:"
+        subtitle="Global Global E-Residency offers comprehensive tax support tailored to e-Residents, ensuring your business stays compliant and optimized. Our services include:"
         services={services}
       />
 
       <ProcessSteps
         title="How It Works"
-        subtitle="Managing your taxes with Global E-Residency is simple and stress-free. Follow these steps to stay compliant:"
+        subtitle="Managing your taxes with Global Global E-Residency is simple and stress-free. Follow these steps to stay compliant:"
         steps={steps}
       />
 
@@ -208,7 +208,7 @@ export default function TaxServicesPage() {
 
       <CTASection
         title="Ready to Simplify Your Taxes?"
-        description="Take control of your business taxes with Global E-Residency. Our expert services make it easy to leverage Estonia's innovative tax system, giving you more time to grow your global business."
+        description="Take control of your business taxes with Global Global E-Residency. Our expert services make it easy to leverage Estonia's innovative tax system, giving you more time to grow your global business."
         primaryButtonText="Book a Free Consultation"
         secondaryButtonText="Download Our Free Tax Guide"
         footerText="Have questions? Contact Us for personalized support."

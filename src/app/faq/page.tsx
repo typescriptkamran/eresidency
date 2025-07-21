@@ -16,49 +16,49 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12 text-center">
-            Find answers to common questions about e-residency programs and our services.
+            Find answers to common questions about Global E-Residency programs and our services.
           </p>
 
           <div className="space-y-6 mb-12">
             <FAQItem
-              question="What is e-residency?"
-              answer="E-residency is a digital identity issued by a government that allows non-residents to access services such as company formation, banking, payment processing, and taxation. It does not confer citizenship or physical residency rights, but enables digital entrepreneurship from anywhere in the world."
+              question="What is Global E-Residency?"
+              answer="Global E-Residency is a digital identity issued by a government that allows non-residents to access services such as company formation, banking, payment processing, and taxation. It does not confer citizenship or physical residency rights, but enables digital entrepreneurship from anywhere in the world."
             />
             <FAQItem
-              question="Which countries offer e-residency programs?"
-              answer="Currently, Estonia, Lithuania, Portugal, and Ukraine offer established e-residency programs, with Estonia being the pioneer. Each program has different features, benefits, and requirements tailored to their specific jurisdictions."
+              question="Which countries offer Global E-Residency programs?"
+              answer="Currently, Estonia, Lithuania, Portugal, and Ukraine offer established Global E-Residency programs, with Estonia being the pioneer. Each program has different features, benefits, and requirements tailored to their specific jurisdictions."
             />
             <FAQItem
-              question="Do I need to visit the country to obtain e-residency?"
+              question="Do I need to visit the country to obtain Global E-Residency?"
               answer="In most cases, you will need to visit an embassy or consulate of the country to complete identity verification and collect your digital ID. Some programs are working on fully remote solutions, but currently, at least one in-person visit is typically required."
             />
             <FAQItem
-              question="How long does it take to get e-residency?"
-              answer="Processing times vary by country. Estonian e-residency typically takes 2-4 weeks, Lithuanian e-residency 3-6 weeks, Portuguese e-residency 4-8 weeks, and Ukrainian e-residency 1-3 weeks. These timeframes may vary based on application volume and individual circumstances."
+              question="How long does it take to get Global E-Residency?"
+              answer="Processing times vary by country. Estonian Global E-Residency typically takes 2-4 weeks, Lithuanian Global E-Residency 3-6 weeks, Portuguese Global E-Residency 4-8 weeks, and Ukrainian Global E-Residency 1-3 weeks. These timeframes may vary based on application volume and individual circumstances."
             />
             <FAQItem
-              question="What are the costs involved in obtaining e-residency?"
+              question="What are the costs involved in obtaining Global E-Residency?"
               answer="Application fees range from €50-150 depending on the country. Additional costs may include company registration fees, legal address services, accounting services, and banking fees. Our consultation services can provide a detailed breakdown of all costs for your specific situation."
             />
             <FAQItem
-              question="Can I open a bank account with e-residency?"
-              answer="E-residency itself does not guarantee bank account approval, but it does make you eligible to apply for banking services in the respective country. Estonia and Lithuania have well-developed fintech ecosystems with various banking options for e-residents. Our banking solutions service can help navigate this process."
+              question="Can I open a bank account with Global E-Residency?"
+              answer="Global E-Residency itself does not guarantee bank account approval, but it does make you eligible to apply for banking services in the respective country. Estonia and Lithuania have well-developed fintech ecosystems with various banking options for e-residents. Our banking solutions service can help navigate this process."
             />
             <FAQItem
               question="What tax benefits do e-residents receive?"
               answer="Tax benefits vary by country. Estonia offers 0% corporate tax on reinvested profits, while Lithuania and Portugal have their own tax incentives. However, your personal tax obligations depend on your tax residency, which is typically determined by where you physically reside. We recommend consulting with a tax professional for your specific situation."
             />
             <FAQItem
-              question="Does e-residency give me the right to live in the country?"
-              answer="No, e-residency is not a visa or residence permit. It does not grant the right to live in or visit the country. It is purely a digital identity for business purposes. Portugal's program does offer potential pathways to physical residency through complementary programs."
+              question="Does Global E-Residency give me the right to live in the country?"
+              answer="No, Global E-Residency is not a visa or residence permit. It does not grant the right to live in or visit the country. It is purely a digital identity for business purposes. Portugal's program does offer potential pathways to physical residency through complementary programs."
             />
             <FAQItem
-              question="How can your services help me with e-residency?"
-              answer="Our services include application assistance, business setup, banking solutions, and tax advisory. We guide you through the entire process from selecting the right e-residency program to establishing and running your business. Our experts have helped hundreds of entrepreneurs successfully navigate the e-residency landscape."
+              question="How can your services help me with Global E-Residency?"
+              answer="Our services include application assistance, business setup, banking solutions, and tax advisory. We guide you through the entire process from selecting the right Global E-Residency program to establishing and running your business. Our experts have helped hundreds of entrepreneurs successfully navigate the Global E-Residency landscape."
             />
             <FAQItem
               question="Can I have multiple e-residencies?"
-              answer="Yes, you can apply for and hold e-residency status in multiple countries simultaneously. This can provide additional flexibility for your business operations and access to different markets and services."
+              answer="Yes, you can apply for and hold Global E-Residency status in multiple countries simultaneously. This can provide additional flexibility for your business operations and access to different markets and services."
             />
           </div>
 
@@ -67,7 +67,7 @@ export default function FAQPage() {
               Still Have Questions?
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6 text-center">
-              Our e-residency experts are ready to help you with personalized answers to your specific questions.
+              Our Global E-Residency are ready to help you with personalized answers to your specific questions.
             </p>
             <div className="flex justify-center">
               <Link
@@ -92,7 +92,7 @@ export default function FAQPage() {
                   E-Books
                 </h4>
                 <p className="text-sm text-slate-600 dark:text-slate-300">
-                  Comprehensive guides on e-residency
+                  Comprehensive guides on Global E-Residency
                 </p>
               </Link>
               <Link

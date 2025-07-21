@@ -12,15 +12,15 @@ export default function ResourcesPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="E-Residency Resources"
+            title="Global E-Residency Resources"
             subtitle="Access our comprehensive collection of guides, articles, and tools"
             imageSrc="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?w=1200&q=80"
-            imageAlt="E-Residency resources and guides"
+            imageAlt="Global E-Residency resources and guides"
             height="md:h-[350px]"
           />
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12">
             Access our comprehensive collection of guides, articles, and tools
-            to help you navigate the world of e-residency and international
+            to help you navigate the world of Global E-Residency and international
             business setup.
           </p>
 
@@ -34,7 +34,7 @@ export default function ResourcesPage() {
                   Blog
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  Latest articles, news, and updates about e-residency programs
+                  Latest articles, news, and updates about Global E-Residency programs
                   worldwide.
                 </p>
               </div>
@@ -49,7 +49,7 @@ export default function ResourcesPage() {
                   E-Books
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  Comprehensive guides on e-residency, taxation, and business
+                  Comprehensive guides on Global E-Residency, taxation, and business
                   setup.
                 </p>
               </div>
@@ -64,7 +64,7 @@ export default function ResourcesPage() {
                   FAQ
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  Answers to commonly asked questions about e-residency
+                  Answers to commonly asked questions about Global E-Residency
                   programs.
                 </p>
               </div>
@@ -79,7 +79,7 @@ export default function ResourcesPage() {
                   Glossary
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  Definitions of key terms related to e-residency and
+                  Definitions of key terms related to Global E-Residency and
                   international business.
                 </p>
               </div>
@@ -93,14 +93,14 @@ export default function ResourcesPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
-                  Ultimate Guide to Estonian E-Residency
+                  Ultimate Guide to Estonian Global E-Residency
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300 mb-4">
                   Everything you need to know about Estonia's pioneering
-                  e-residency program, from application to business setup.
+                  Global E-Residency program, from application to business setup.
                 </p>
                 <Button asChild variant="outline">
-                  <Link href="/resources/ebooks/estonian-e-residency-guide">
+                  <Link href="/resources/ebooks/estonian-Global E-Residency-guide">
                     Download Guide
                   </Link>
                 </Button>
@@ -127,7 +127,7 @@ export default function ResourcesPage() {
               Subscribe to Our Newsletter
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6 text-center max-w-2xl mx-auto">
-              Stay updated with the latest e-residency news, resources, and
+              Stay updated with the latest Global E-Residency news, resources, and
               special offers delivered directly to your inbox.
             </p>
             <div className="max-w-md mx-auto">

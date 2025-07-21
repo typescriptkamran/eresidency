@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 mb-6">
-              E-Residency Experts ("we," "our," or "us") is committed to
+              Global E-Residency ("we," "our," or "us") is committed to
               protecting your privacy. This Privacy Policy explains how we
               collect, use, disclose, and safeguard your information when you
               visit our website or use our services.
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
                       <li>Sign up for our newsletter</li>
                       <li>Request a consultation</li>
                       <li>Submit a contact form</li>
-                      <li>Apply for e-residency services</li>
+                      <li>Apply for Global E-Residency services</li>
                       <li>Participate in surveys or promotions</li>
                     </ul>
                     <p className="text-slate-700 dark:text-slate-300 mt-2">
@@ -169,7 +169,7 @@ export default function PrivacyPolicyPage() {
                     </h3>
                     <p className="text-slate-700 dark:text-slate-300">
                       We may disclose your information to protect the safety,
-                      rights, property, or security of E-Residency Experts, our
+                      rights, property, or security of Global E-Residency, our
                       services, any third party, or the general public; to
                       detect, prevent, or otherwise address fraud, security, or
                       technical issues; or to prevent or stop activity we
@@ -272,9 +272,9 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="mt-4 bg-slate-50 dark:bg-slate-700 p-4 rounded-md">
                   <p className="text-slate-700 dark:text-slate-300">
-                    E-Residency Experts
+                    Global E-Residency
                     <br />
-                    Email: privacy@e-residencyexperts.com
+                    Email: privacy@Global E-Residencyexperts.com
                     <br />
                     Address: 123 Global Street, Business District, 10001
                     <br />

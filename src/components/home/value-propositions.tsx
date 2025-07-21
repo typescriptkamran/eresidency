@@ -10,7 +10,7 @@ export function ValuePropositions() {
     {
       title: "Comprehensive Country Comparisons",
       description:
-        "Detailed insights into e-residency programs across multiple countries",
+        "Detailed insights into Global E-Residency programs across multiple countries",
     },
     {
       title: "Expert Consultation",
@@ -27,7 +27,7 @@ export function ValuePropositions() {
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white mb-12">
-          Why Choose Our E-Residency Platform
+          Why Choose Our Global E-Residency Platform
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {propositions.map((prop, index) => (

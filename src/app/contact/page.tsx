@@ -14,8 +14,8 @@ export default function ContactPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="Contact E-Residency Experts"
-            subtitle="Have questions? Our team is here to help you navigate the e-residency process"
+            title="Contact Global E-Residency"
+            subtitle="Have questions? Our team is here to help you navigate the Global E-Residency process"
             imageSrc="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200&q=80"
             imageAlt="Contact and support team"
             height="md:h-[350px]"
@@ -23,8 +23,8 @@ export default function ContactPage() {
           {/* SEO-optimized header section */}
           <div className="text-center mb-12">
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
-              Have questions about Estonian e-residency or other global
-              e-residency programs? Our team of experts is here to help you
+              Have questions about Estonian Global E-Residency or other global
+              Global E-Residency programs? Our team of experts is here to help you
               navigate the application process and set up your business
               efficiently.
             </p>
@@ -46,7 +46,7 @@ export default function ContactPage() {
                         Email
                       </h3>
                       <p className="text-slate-700 dark:text-slate-300 mt-1">
-                        contact@e-residencyexperts.com
+                        managemet@globaleresidency.com
                       </p>
                       <p className="text-slate-600 dark:text-slate-400 text-sm mt-1">
                         We respond within 24 hours
@@ -54,37 +54,9 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start">
-                    <Phone className="h-6 w-6 text-blue-600 dark:text-blue-400 mt-0.5 mr-3" />
-                    <div>
-                      <h3 className="font-medium text-slate-900 dark:text-white">
-                        Phone
-                      </h3>
-                      <p className="text-slate-700 dark:text-slate-300 mt-1">
-                        +1 (555) 123-4567
-                      </p>
-                      <p className="text-slate-600 dark:text-slate-400 text-sm mt-1">
-                        Mon-Fri from 9am to 6pm (EST)
-                      </p>
-                    </div>
-                  </div>
+        
 
-                  <div className="flex items-start">
-                    <MapPin className="h-6 w-6 text-blue-600 dark:text-blue-400 mt-0.5 mr-3" />
-                    <div>
-                      <h3 className="font-medium text-slate-900 dark:text-white">
-                        Office
-                      </h3>
-                      <p className="text-slate-700 dark:text-slate-300 mt-1">
-                        123 Business Avenue
-                        <br />
-                        Tallinn, Estonia 10115
-                      </p>
-                      <p className="text-slate-600 dark:text-slate-400 text-sm mt-1">
-                        Virtual meetings available
-                      </p>
-                    </div>
-                  </div>
+              
 
                   <div className="flex items-start">
                     <Clock className="h-6 w-6 text-blue-600 dark:text-blue-400 mt-0.5 mr-3" />
@@ -232,10 +204,10 @@ export default function ContactPage() {
                       className="w-full rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-white"
                     >
                       <option value="">Select your interest</option>
-                      <option value="estonia">Estonian E-Residency</option>
-                      <option value="lithuania">Lithuanian E-Residency</option>
-                      <option value="portugal">Portuguese E-Residency</option>
-                      <option value="ukraine">Ukrainian E-Residency</option>
+                      <option value="estonia">Estonian  E-Residency</option>
+                      <option value="lithuania">Lithuanian  E-Residency</option>
+                      <option value="portugal">Portuguese  E-Residency</option>
+                      <option value="ukraine">Ukrainian  E-Residency</option>
                       <option value="comparison">Program Comparison</option>
                       <option value="business">Business Setup</option>
                       <option value="tax">Tax Advisory</option>
@@ -310,20 +282,20 @@ export default function ContactPage() {
               </div>
               <div className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-sm">
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">
-                  How long does it take to get e-residency?
+                  How long does it take to get  E-Residency?
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  The timeline varies by country. Estonian e-residency typically
+                  The timeline varies by country. Estonian  E-Residency typically
                   takes 2-4 weeks, while other programs may take 1-8 weeks
                   depending on the country and your specific situation.
                 </p>
               </div>
               <div className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-sm">
                 <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">
-                  Do I need to visit Estonia to get e-residency?
+                  Do I need to visit Estonia to get  E-Residency?
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  No, you don't need to visit Estonia to apply for e-residency.
+                  No, you don't need to visit Estonia to apply for  E-Residency.
                   However, you will need to collect your digital ID card in
                   person at an Estonian embassy or consulate in your region.
                 </p>
@@ -335,7 +307,7 @@ export default function ContactPage() {
                 <p className="text-slate-700 dark:text-slate-300">
                   Yes, we provide guidance on banking options for e-residents,
                   including traditional banks and fintech solutions that work
-                  well with e-residency programs.
+                  well with  E-Residency programs.
                 </p>
               </div>
             </div>
@@ -344,7 +316,7 @@ export default function ContactPage() {
           {/* CTA Section */}
           <div className="bg-blue-600 dark:bg-blue-800 text-white p-8 rounded-lg text-center">
             <h2 className="text-2xl font-bold mb-4">
-              Ready to Start Your E-Residency Journey?
+              Ready to Start Your  E-Residency Journey?
             </h2>
             <p className="text-lg mb-6 max-w-3xl mx-auto">
               Whether you're just exploring options or ready to apply, our team

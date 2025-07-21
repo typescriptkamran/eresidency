@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "iOS 15 Mobile Experience | E-Residency Experts",
+  title: "iOS 15 Mobile Experience | Global E-Residency",
   description:
-    "Experience our e-residency information in an iOS 15-inspired mobile interface",
+    "Experience our Global E-Residency information in an iOS 15-inspired mobile interface",
 };
 
 export default function MobileLayout({

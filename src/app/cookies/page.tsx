@@ -20,7 +20,7 @@ export default function CookiePolicyPage() {
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 mb-6">
-              This Cookie Policy explains how E-Residency Experts ("we," "our," or "us") uses cookies and similar technologies on our website. By using our website, you consent to the use of cookies as described in this policy.
+              This Cookie Policy explains how Global E-Residency ("we," "our," or "us") uses cookies and similar technologies on our website. By using our website, you consent to the use of cookies as described in this policy.
             </p>
 
             <div className="space-y-8">
@@ -176,8 +176,8 @@ export default function CookiePolicyPage() {
                 </p>
                 <div className="mt-4 bg-slate-50 dark:bg-slate-700 p-4 rounded-md">
                   <p className="text-slate-700 dark:text-slate-300">
-                    E-Residency Experts<br />
-                    Email: privacy@e-residencyexperts.com<br />
+                    Global E-Residency<br />
+                    Email: privacy@Global E-Residencyexperts.com<br />
                     Address: 123 Global Street, Business District, 10001<br />
                     Phone: +1 (555) 123-4567
                   </p>

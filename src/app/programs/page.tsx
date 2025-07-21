@@ -9,14 +9,14 @@ export default function ProgramsPage() {
       <main className="flex-grow py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <AnimatedHero
-            title="E-Residency Programs"
-            subtitle="Explore detailed information about e-residency programs from various countries"
+            title="Global E-Residency Programs"
+            subtitle="Explore detailed information about Global E-Residency programs from various countries"
             imageSrc="https://images.unsplash.com/photo-1524055988636-436cfa46e59e?w=1200&q=80"
-            imageAlt="Global e-residency programs"
+            imageAlt="Global Global E-Residency programs"
             height="md:h-[350px]"
           />
           <p className="text-lg text-slate-700 dark:text-slate-300 mb-12">
-            Explore detailed information about e-residency programs from various
+            Explore detailed information about Global E-Residency programs from various
             countries. Compare benefits, requirements, and application processes
             to find the best fit for your business needs.
           </p>
@@ -28,7 +28,7 @@ export default function ProgramsPage() {
               </div>
               <div className="p-6">
                 <p className="text-slate-700 dark:text-slate-300 mb-4">
-                  The pioneer of e-residency programs, offering a fully digital
+                  The pioneer of Global E-Residency programs, offering a fully digital
                   business environment with access to the EU market.
                 </p>
                 <ul className="space-y-2 mb-6">
@@ -63,7 +63,7 @@ export default function ProgramsPage() {
               </div>
               <div className="p-6">
                 <p className="text-slate-700 dark:text-slate-300 mb-4">
-                  A rapidly growing fintech hub offering e-residency with strong
+                  A rapidly growing fintech hub offering Global E-Residency with strong
                   banking infrastructure and EU market access.
                 </p>
                 <ul className="space-y-2 mb-6">
@@ -95,7 +95,7 @@ export default function ProgramsPage() {
 
           <div className="mt-12 text-center">
             <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Need help choosing the right e-residency program for your specific
+              Need help choosing the right Global E-Residency program for your specific
               needs?
             </p>
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium">

@@ -18,9 +18,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Business Setup - Global E-Residency | Launch Your EU Company Online",
+  title: "Business Setup - Global Global E-Residency | Launch Your EU Company Online",
   description:
-    "Launch your EU-based business effortlessly with Global E-Residency's expert business setup services through Estonia's e-Residency program. 100% online, compliant, and cost-effective.",
+    "Launch your EU-based business effortlessly with Global Global E-Residency's expert business setup services through Estonia's Global E-Residency program. 100% online, compliant, and cost-effective.",
 };
 
 export default function BusinessSetupPage() {
@@ -70,20 +70,20 @@ export default function BusinessSetupPage() {
       ],
     },
     {
-      title: "E-Residency Application Assistance",
+      title: "Global E-Residency Application Assistance",
       description:
-        "To manage an Estonian company, you'll need an e-Residency digital ID. We streamline the application process.",
+        "To manage an Estonian company, you'll need an Global E-Residency digital ID. We streamline the application process.",
       features: [
         "Providing step-by-step guidance on required documents",
         "Assisting with application submission to the Estonian authorities",
-        "Coordinating the pickup of your e-Residency kit at embassies or designated locations",
+        "Coordinating the pickup of your Global E-Residency kit at embassies or designated locations",
         "Setting up your digital signature for secure online transactions",
       ],
     },
     {
       title: "Business Banking and Payment Solutions",
       description:
-        "Accessing EU banking is a key benefit of e-Residency. We help you navigate the banking landscape.",
+        "Accessing EU banking is a key benefit of Global E-Residency. We help you navigate the banking landscape.",
       features: [
         "Open a business bank account with trusted EU financial institutions",
         "Connect to payment gateways like Stripe, PayPal, and Wise for global transactions",
@@ -123,9 +123,9 @@ export default function BusinessSetupPage() {
     },
     {
       number: "02",
-      title: "E-Residency Application",
+      title: "Global E-Residency Application",
       description:
-        "Apply for your e-Residency digital ID with our expert guidance. Approval typically takes 3–6 weeks.",
+        "Apply for your Global E-Residency digital ID with our expert guidance. Approval typically takes 3–6 weeks.",
     },
     {
       number: "03",
@@ -185,12 +185,12 @@ export default function BusinessSetupPage() {
               Business Setup Services
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
-              Business Setup with Global E-Residency
+              Business Setup with Global Global E-Residency
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
               Launch your EU-based business effortlessly with Global
-              E-Residency's expert business setup services. Through Estonia's
-              innovative e-Residency program, we help digital nomads,
+              Global E-Residency's expert business setup services. Through Estonia's
+              innovative Global E-Residency program, we help digital nomads,
               freelancers, and entrepreneurs establish and manage a
               location-independent company entirely online.
             </p>
@@ -214,7 +214,7 @@ export default function BusinessSetupPage() {
               Why Set Up a Business in Estonia?
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Estonia's e-Residency program is designed for global
+              Estonia's Global E-Residency program is designed for global
               entrepreneurs, offering a transparent, digital-first business
               environment.
             </p>
@@ -253,7 +253,7 @@ export default function BusinessSetupPage() {
               Our Business Setup Services
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Global E-Residency provides comprehensive support to make your EU
+              Global Global E-Residency provides comprehensive support to make your EU
               business setup simple, fast, and cost-effective.
             </p>
 
@@ -298,7 +298,7 @@ export default function BusinessSetupPage() {
               How It Works
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-12">
-              Starting your EU business with Global E-Residency is
+              Starting your EU business with Global Global E-Residency is
               straightforward. Follow these steps to get up and running:
             </p>
 
@@ -328,7 +328,7 @@ export default function BusinessSetupPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Benefits of Choosing Global E-Residency
+              Benefits of Choosing Global Global E-Residency
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -361,7 +361,7 @@ export default function BusinessSetupPage() {
             </h2>
             <p className="text-xl mb-8 opacity-90">
               Take the first step toward building your global,
-              location-independent business today. With Global E-Residency,
+              location-independent business today. With Global Global E-Residency,
               you're not just setting up a company—you're unlocking a world of
               opportunities in the EU and beyond.
             </p>

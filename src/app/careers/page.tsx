@@ -17,13 +17,13 @@ export default function CareersPage() {
       <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Careers at Global E-Residency
+            Careers at Global Global E-Residency
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
             Join a team that's transforming how entrepreneurs build and manage
-            businesses worldwide. At Global E-Residency, we're passionate about
+            businesses worldwide. At Global Global E-Residency, we're passionate about
             empowering digital nomads, freelancers, and startups through
-            Estonia's innovative e-Residency program.
+            Estonia's innovative Global E-Residency program.
           </p>
           <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
             View Open Positions
@@ -217,12 +217,12 @@ export default function CareersPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Support e-Residency clients with business setup, banking, and
+                  Support Global E-Residency clients with business setup, banking, and
                   tax queries, ensuring a seamless experience.
                 </p>
                 <p className="text-sm text-gray-500 mb-4">
                   <strong>Requirements:</strong> Excellent communication skills,
-                  experience in customer support, and knowledge of e-Residency
+                  experience in customer support, and knowledge of Global E-Residency
                   or international business.
                 </p>
                 <Button className="w-full">Apply Now</Button>
@@ -272,7 +272,7 @@ export default function CareersPage() {
               <CardContent>
                 <p className="text-gray-600 mb-4">
                   Develop and execute marketing campaigns to promote Global
-                  E-Residency's services to a global audience.
+                  Global E-Residency's services to a global audience.
                 </p>
                 <p className="text-sm text-gray-500 mb-4">
                   <strong>Requirements:</strong> Proven experience in digital
@@ -386,7 +386,7 @@ export default function CareersPage() {
             Join Our Mission
           </h2>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            At Global E-Residency, we're building a world where anyone, anywhere
+            At Global Global E-Residency, we're building a world where anyone, anywhere
             can start and grow a business with ease. If you're driven by
             innovation, passionate about helping others, and ready to make a
             difference, we'd love to hear from you.

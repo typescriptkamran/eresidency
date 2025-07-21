@@ -4,16 +4,16 @@ export function ContentBlocks() {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-800">
       <div className="max-w-7xl mx-auto">
-        {/* Understanding E-Residency */}
+        {/* Understanding Global E-Residency */}
         <div className="mb-16">
           <div className="flex items-center mb-4">
             <Globe className="h-8 w-8 text-blue-600 mr-3" />
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
-              Understanding E-Residency
+              Understanding Global E-Residency
             </h2>
           </div>
           <p className="text-lg text-slate-700 dark:text-slate-300 max-w-4xl">
-            E-residency is your gateway to global business opportunities. It
+            Global E-Residency is your gateway to global business opportunities. It
             provides digital entrepreneurs, freelancers, and remote workers with
             a flexible, location-independent business solution. Our platform
             demystifies the process, offering comprehensive support for your
@@ -54,7 +54,7 @@ export function ContentBlocks() {
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300">
                   Receive tailored recommendations for the most suitable
-                  e-residency options
+                  Global E-Residency options
                 </p>
               </div>
             </li>
@@ -87,12 +87,12 @@ export function ContentBlocks() {
           </ol>
         </div>
 
-        {/* Benefits of E-Residency */}
+        {/* Benefits of Global E-Residency */}
         <div>
           <div className="flex items-center mb-4">
             <CheckSquare className="h-8 w-8 text-emerald-600 mr-3" />
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
-              Benefits of E-Residency
+              Benefits of Global E-Residency
             </h2>
           </div>
           <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">

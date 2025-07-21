@@ -6,15 +6,15 @@ import { Download, FileText, Calendar, ArrowLeft } from "lucide-react";
 export default function EbooksPage() {
   const ebooks = [
     {
-      title: "The Ultimate Guide to Estonian E-Residency",
+      title: "The Ultimate Guide to Estonian Global E-Residency",
       description:
-        "Everything you need to know about Estonia's pioneering e-residency program, from application to business setup and management.",
+        "Everything you need to know about Estonia's pioneering Global E-Residency program, from application to business setup and management.",
       image:
         "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=800&q=80",
       pages: 48,
       publishDate: "May 2023",
       category: "Country Guide",
-      slug: "estonian-e-residency-guide",
+      slug: "estonian-Global E-Residency-guide",
     },
     {
       title: "Tax Optimization Strategies for E-Residents",
@@ -39,26 +39,26 @@ export default function EbooksPage() {
       slug: "banking-solutions-guide",
     },
     {
-      title: "Lithuanian E-Residency: The Complete Guide",
+      title: "Lithuanian Global E-Residency: The Complete Guide",
       description:
-        "Explore Lithuania's e-residency program, its benefits for fintech entrepreneurs, and how to leverage its business-friendly environment.",
+        "Explore Lithuania's Global E-Residency program, its benefits for fintech entrepreneurs, and how to leverage its business-friendly environment.",
       image:
         "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=80",
       pages: 42,
       publishDate: "February 2023",
       category: "Country Guide",
-      slug: "lithuanian-e-residency-guide",
+      slug: "lithuanian-Global E-Residency-guide",
     },
     {
-      title: "E-Residency for Digital Nomads",
+      title: "Global E-Residency for Digital Nomads",
       description:
-        "How digital nomads can benefit from e-residency programs, with practical tips for managing a location-independent business.",
+        "How digital nomads can benefit from Global E-Residency programs, with practical tips for managing a location-independent business.",
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
       pages: 28,
       publishDate: "January 2023",
       category: "Lifestyle",
-      slug: "e-residency-digital-nomads",
+      slug: "Global E-Residency-digital-nomads",
     },
     {
       title: "Compliance Guide for E-Resident Businesses",
@@ -72,26 +72,26 @@ export default function EbooksPage() {
       slug: "compliance-guide",
     },
     {
-      title: "Portugal's E-Residency Program Explained",
+      title: "Portugal's Global E-Residency Program Explained",
       description:
-        "A detailed look at Portugal's new e-residency program, its unique features, and how it compares to other established programs.",
+        "A detailed look at Portugal's new Global E-Residency program, its unique features, and how it compares to other established programs.",
       image:
         "https://images.unsplash.com/photo-1513735492246-483525079686?w=800&q=80",
       pages: 34,
       publishDate: "November 2022",
       category: "Country Guide",
-      slug: "portugal-e-residency-guide",
+      slug: "portugal-Global E-Residency-guide",
     },
     {
-      title: "E-Residency Success Stories: Case Studies",
+      title: "Global E-Residency Success Stories: Case Studies",
       description:
-        "Real-world examples of entrepreneurs who have successfully leveraged e-residency to grow their international businesses.",
+        "Real-world examples of entrepreneurs who have successfully leveraged Global E-Residency to grow their international businesses.",
       image:
         "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=80",
       pages: 30,
       publishDate: "October 2022",
       category: "Case Studies",
-      slug: "e-residency-success-stories",
+      slug: "Global E-Residency-success-stories",
     },
   ];
 
@@ -122,11 +122,11 @@ export default function EbooksPage() {
 
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              E-Residency E-Books
+              Global E-Residency E-Books
             </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
               Comprehensive guides and resources to help you navigate the world
-              of e-residency and international business.
+              of Global E-Residency and international business.
             </p>
           </div>
 
@@ -195,7 +195,7 @@ export default function EbooksPage() {
             <div className="md:flex items-center">
               <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
                 <h2 className="text-2xl font-bold mb-4">
-                  Get Our Latest E-Book: The Future of E-Residency
+                  Get Our Latest E-Book: The Future of Global E-Residency
                 </h2>
                 <p className="text-white/80 mb-6">
                   Discover emerging trends, new programs, and future
@@ -205,11 +205,11 @@ export default function EbooksPage() {
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
                     <span className="text-emerald-300 mr-2">✓</span>
-                    <span>Exclusive insights from e-residency experts</span>
+                    <span>Exclusive insights from Global E-Residency</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-emerald-300 mr-2">✓</span>
-                    <span>Analysis of upcoming e-residency programs</span>
+                    <span>Analysis of upcoming Global E-Residency programs</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-emerald-300 mr-2">✓</span>
@@ -250,7 +250,7 @@ export default function EbooksPage() {
           {/* Custom E-Book Request */}
           <div className="bg-white dark:bg-slate-800 rounded-lg shadow-md p-8 text-center">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Need a Custom E-Residency Guide?
+              Need a Custom Global E-Residency Guide?
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6 max-w-2xl mx-auto">
               Our experts can create personalized guides tailored to your

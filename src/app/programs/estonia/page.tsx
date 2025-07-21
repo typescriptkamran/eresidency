@@ -22,7 +22,7 @@ export default function EstoniaPage() {
           <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg overflow-hidden">
             <div className="h-64 bg-gradient-to-r from-blue-500 to-blue-700 flex items-center justify-center p-8">
               <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-                Estonia E-Residency Program
+                Estonia Global E-Residency Program
               </h1>
             </div>
 
@@ -34,7 +34,7 @@ export default function EstoniaPage() {
                   </h2>
 
                   <p className="text-slate-700 dark:text-slate-300 mb-6">
-                    Estonia launched the world's first e-residency program in
+                    Estonia launched the world's first Global E-Residency program in
                     2014, revolutionizing how entrepreneurs interact with
                     government services. As an Estonian e-resident, you gain a
                     government-issued digital identity and access to Estonia's
@@ -150,7 +150,7 @@ export default function EstoniaPage() {
 
                     <p className="text-slate-700 dark:text-slate-300 mb-6">
                       Our team of experts can guide you through the entire
-                      Estonian e-residency application process and help set up
+                      Estonian Global E-Residency application process and help set up
                       your business.
                     </p>
 
@@ -180,7 +180,7 @@ export default function EstoniaPage() {
                             className="flex items-center text-blue-600 dark:text-blue-500 hover:underline"
                           >
                             <FileText className="h-4 w-4 mr-2" />
-                            Estonia E-Residency Guide
+                            Estonia Global E-Residency Guide
                           </Link>
                         </li>
                         <li>
@@ -202,7 +202,7 @@ export default function EstoniaPage() {
 
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Compare with Other E-Residency Programs
+              Compare with Other Global E-Residency Programs
             </h2>
             <p className="text-slate-700 dark:text-slate-300 mb-6">
               Not sure if Estonia is the right fit for your business needs?

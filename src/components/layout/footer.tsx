@@ -62,14 +62,11 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold text-blue-500">
-                E-Residency
-              </span>
-              <span className="ml-1 text-2xl font-bold text-white">
-                Experts
+                Global E-Residency
               </span>
             </Link>
             <p className="mt-4 text-slate-400">
-              Your trusted partner for navigating global e-residency
+              Your trusted partner for navigating global Global E-Residency
               opportunities and international business expansion.
             </p>
             <div className="mt-6 flex space-x-4">
@@ -112,7 +109,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="text-slate-400 text-sm">
-                © {currentYear} E-Residency Experts. All rights reserved.
+                © {currentYear} Global E-Residency. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6">
@@ -139,11 +136,7 @@ export function Footer() {
           <div className="mt-6 flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-6 text-slate-400">
             <div className="flex items-center">
               <Mail className="h-4 w-4 mr-2" />
-              <span>contact@e-residencyexperts.com</span>
-            </div>
-            <div className="flex items-center">
-              <Phone className="h-4 w-4 mr-2" />
-              <span>+1 (555) 123-4567</span>
+              <span>management@globaleresidency.com</span>
             </div>
           </div>
         </div>

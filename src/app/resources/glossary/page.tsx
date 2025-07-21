@@ -18,7 +18,7 @@ export default function GlossaryPage() {
 
   const glossaryTerms = [
     {
-      term: "E-Residency",
+      term: "Global E-Residency",
       definition:
         "A digital identity issued by a government that allows non-residents to access services such as company formation, banking, payment processing, and taxation. It does not confer citizenship or physical residency rights.",
     },
@@ -201,10 +201,10 @@ export default function GlossaryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              E-Residency Glossary
+              Global E-Residency Glossary
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Your comprehensive guide to e-residency, digital business, and
+              Your comprehensive guide to Global E-Residency, digital business, and
               international tax terminology. Understanding these key terms will
               help you navigate the world of digital entrepreneurship.
             </p>
@@ -316,7 +316,7 @@ export default function GlossaryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <p className="text-slate-600 dark:text-slate-300">
-              Need help with e-residency applications or have questions about
+              Need help with Global E-Residency applications or have questions about
               these terms?
             </p>
             <p className="text-slate-600 dark:text-slate-300 mt-2">

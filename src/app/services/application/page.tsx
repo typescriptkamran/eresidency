@@ -15,7 +15,7 @@ export default function ApplicationAssistancePage() {
     {
       name: "Basic",
       price: "€299",
-      description: "Essential support for your e-residency application",
+      description: "Essential support for your Global E-Residency application",
       features: [
         "Document review and preparation",
         "Application form guidance",
@@ -67,10 +67,10 @@ export default function ApplicationAssistancePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              E-Residency Application Assistance
+              Global E-Residency Application Assistance
             </h1>
             <p className="text-xl text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
-              Expert guidance and support to streamline your e-residency
+              Expert guidance and support to streamline your Global E-Residency
               application process and maximize your chances of approval.
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function ApplicationAssistancePage() {
                   Why Choose Our Application Assistance?
                 </h2>
                 <p className="text-slate-700 dark:text-slate-300 mb-6">
-                  Navigating the e-residency application process can be complex
+                  Navigating the Global E-Residency application process can be complex
                   and time-consuming. Our expert team provides personalized
                   guidance to ensure a smooth, efficient application experience
                   with the highest chance of success.
@@ -96,7 +96,7 @@ export default function ApplicationAssistancePage() {
                         Expert Guidance:
                       </strong>{" "}
                       Our specialists have helped hundreds of applicants
-                      successfully obtain e-residency.
+                      successfully obtain Global E-Residency.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -144,7 +144,7 @@ export default function ApplicationAssistancePage() {
                       </h4>
                       <p className="text-white/80">
                         We assess your needs and eligibility, then recommend the
-                        best e-residency program for your situation.
+                        best Global E-Residency program for your situation.
                       </p>
                     </div>
                   </div>
@@ -252,7 +252,7 @@ export default function ApplicationAssistancePage() {
           {/* Countries Covered */}
           <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-8 mb-16">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 text-center">
-              E-Residency Programs We Support
+              Global E-Residency Programs We Support
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link
@@ -269,7 +269,7 @@ export default function ApplicationAssistancePage() {
                     Estonia
                   </h3>
                   <p className="text-sm text-slate-600 dark:text-slate-400">
-                    Pioneer e-residency program
+                    Pioneer Global E-Residency program
                   </p>
                 </div>
               </Link>
@@ -354,7 +354,7 @@ export default function ApplicationAssistancePage() {
                 </div>
                 <p className="text-slate-700 dark:text-slate-300 italic">
                   "The application assistance service saved me countless hours
-                  of research and stress. My Estonian e-residency was approved
+                  of research and stress. My Estonian Global E-Residency was approved
                   in just 3 weeks, and now I can run my business from anywhere!"
                 </p>
               </div>
@@ -376,8 +376,8 @@ export default function ApplicationAssistancePage() {
                 </div>
                 <p className="text-slate-700 dark:text-slate-300 italic">
                   "After my first application was rejected, I turned to
-                  E-Residency Experts. Their team identified the issues, helped
-                  me reapply, and I was approved for Lithuanian e-residency.
+                  Global E-Residency. Their team identified the issues, helped
+                  me reapply, and I was approved for Lithuanian Global E-Residency.
                   Worth every penny!"
                 </p>
               </div>
@@ -400,7 +400,7 @@ export default function ApplicationAssistancePage() {
                 <p className="text-slate-700 dark:text-slate-300 italic">
                   "The Premium package was exactly what I needed. My dedicated
                   specialist handled everything, from document translation to
-                  expedited processing. Now I have both Portuguese e-residency
+                  expedited processing. Now I have both Portuguese Global E-Residency
                   and a path to physical residency."
                 </p>
               </div>
@@ -419,7 +419,7 @@ export default function ApplicationAssistancePage() {
           {/* CTA */}
           <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl shadow-lg p-8 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">
-              Ready to Begin Your E-Residency Journey?
+              Ready to Begin Your Global E-Residency Journey?
             </h2>
             <p className="text-xl text-white/80 mb-6 max-w-3xl mx-auto">
               Our experts are ready to guide you through every step of the
